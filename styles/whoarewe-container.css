@@ -1,0 +1,49 @@
+.whoarewe-container {
+    background-color: var(--clr-3);
+    color: var(--clr-1);
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: stretch;
+    align-items: stretch;
+    align-content: stretch;
+
+    padding: 0 2em 1.5em 2em;
+
+    gap: .5em;
+}
+
+
+.section-title {
+    font-family: "Inknut Antiqua";
+    font-size: 1.5em;
+    white-space: nowrap;
+
+    text-overflow: ellipsis;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.whoarewe-container div {
+    font-size: 0.8em;
+
+    text-align: justify;
+}
+
+.social-wrapper {
+    margin-block: 1em;
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    
+    flex-flow: row nowrap;
+}
+
+.social-wrapper img {
+    width: 4em;
+}

@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'fuego-font';
+    src: url('fuego-fontRegular.eot');
+    src: local('fuego-font Regular'), local('fuego-fontRegular'),
+        url('fuego-fontRegular.eot?#iefix') format('embedded-opentype'),
+        url('fuego-fontRegular.woff2') format('woff2'),
+        url('fuego-fontRegular.woff') format('woff'),
+        url('fuego-fontRegular.ttf') format('truetype'),
+        url('fuego-fontRegular.svg#fuego-fontRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
