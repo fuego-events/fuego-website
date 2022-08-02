@@ -31,19 +31,6 @@
     font-size: 0.8em;
 
     text-align: justify;
-}
 
-.social-wrapper {
-    margin-block: 1em;
-    display: flex;
-
-    justify-content: space-around;
-    align-items: center;
-    align-content: center;
-    
-    flex-flow: row nowrap;
-}
-
-.social-wrapper img {
-    width: 4em;
+    line-height: 1.5em;
 }

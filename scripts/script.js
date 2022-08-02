@@ -1,10 +1,6 @@
 import { Utilities } from '../scripts/Utilities.js';
 
 window.addEventListener("load", async function () {
-    let configs = await fetch("../resources/config.json").then((file) =>
-        file.json()
-    );
-    
     const slideshowContainer = document.querySelector(".slideshow-container");
     const whoareweContainer = document.querySelector(".whoarewe-container");
     const eventsContainer = document.querySelector(".events-container");
@@ -51,8 +47,8 @@ window.addEventListener("load", async function () {
 
     // -> Slideshow animation
 
-    const wallpapers = configs['images'];
-
+    const wallpapersConfigs = await fetch("../resources/configs/slideshow-config.json").then((file) => file.json() );
+    const wallpapers = wallpapersConfigs['images'];
     
     let items = [];
     wallpapers.forEach((image, index) => {
@@ -96,7 +92,7 @@ window.addEventListener("load", async function () {
         <span class="letter-logo pulse">E</span>
         <span>G</span>
         <span>O</span>`;
-        logoText.style.color = configs['text-colors'][index % configs['text-colors'].length];
+        logoText.style.color = wallpapersConfigs['text-colors'][index % wallpapersConfigs['text-colors'].length];
         items[index].appendChild(logoText);
         
     });
@@ -146,7 +142,7 @@ window.addEventListener("load", async function () {
 
     // -> Events carousel
 
-    let events = configs['events'];
+    const events = await fetch("../resources/configs/events-config.json").then((file) => file.json() );
     events.sort((a, b) => b['party-timestamp'] - a['party-timestamp']);
 
     const DURATA_EVENTO = 5 * 3600 * 1000;
@@ -196,7 +192,7 @@ window.addEventListener("load", async function () {
     });
 
     // -> Shop carousel
-    let products = configs['products'];
+    const products = await fetch("../resources/configs/merchandise-config.json").then((file) => file.json() );
     let productsCarousel = document.querySelector(".products-carousel");
     products.forEach(event => {
         let productCard = document.createElement("div");

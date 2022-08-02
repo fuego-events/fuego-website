@@ -1,0 +1,16 @@
+{
+    "images": [
+      "../resources/wallpapers/wallpaper-5.mp4",
+      "../resources/wallpapers/wallpaper-6.mp4",
+      "../resources/wallpapers/wallpaper-7.mp4",
+      "../resources/wallpapers/wallpaper-8.mp4",
+      "../resources/wallpapers/bw-wallpaper-1.JPG",
+      "../resources/wallpapers/bw-wallpaper-2.JPG",
+      "../resources/wallpapers/bw-wallpaper-3.JPG",
+      "../resources/wallpapers/bw-wallpaper-4.JPG"
+    ],
+    "text-colors": [
+      "#fff",
+      "#dc143c"
+    ]
+}
