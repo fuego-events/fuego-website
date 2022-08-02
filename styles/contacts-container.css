@@ -7,8 +7,8 @@
 }
 
 .contacts-container {
-    color: var(--clr-1);
-    background-color: var(--clr-3);
+    color: var(--clr-3);
+    background-color: var(--clr-1);
 
     display: flex;
     flex-flow: column nowrap;
@@ -25,6 +25,11 @@
     font-size: 0.8em;
 
     text-align: justify;
+}
+
+.contacts-container hr {
+    border: 2px solid var(--clr-3) ;
+    margin: 2em 4em;
 }
 
 

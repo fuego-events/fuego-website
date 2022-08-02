@@ -10,13 +10,11 @@ window.addEventListener("load", async function () {
     const eventsContainer = document.querySelector(".events-container");
     const merchandiseContainer = document.querySelector(".merchandise-container");
     const contactsContainer = document.querySelector(".contacts-container");
-    const photosContainer = document.querySelector(".photos-container");
 
     const aWhoarewe = document.querySelector("a[href='#a-whoarewe']");
     const aEvents = document.querySelector("a[href='#a-events']");
     const aMerchandise = document.querySelector("a[href='#a-merchandise']");
     const aContacts = document.querySelector("a[href='#a-contacts']");
-    const aPhotos = document.querySelector("a[href='#a-photos']");
 
     const pairsContainersAs = [
         [aWhoarewe, aWhoarewe],
@@ -25,8 +23,6 @@ window.addEventListener("load", async function () {
         [eventsContainer, aEvents],
         [aMerchandise, aMerchandise],
         [merchandiseContainer, aMerchandise],
-        [aPhotos, aPhotos],
-        [photosContainer, aPhotos],
         [aContacts, aContacts],
         [contactsContainer, aContacts],
     ];
