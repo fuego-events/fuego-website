@@ -27,9 +27,29 @@ class Utilities {
         return container;
     }
 
-    static SummonEventPopup(event) {
+    // -> Popup
+
+    static GetPopupBackground() {
         let backgroundPopup = document.createElement("div");
-        backgroundPopup.classList.add('event-popup-background');
+        backgroundPopup.classList.add('popup-background');
+        return backgroundPopup;
+    }
+
+    static SummonImagePopup(imageURL) {
+        let backgroundPopup = Utilities.GetPopupBackground();
+
+        let imagePopup = document.createElement("div");
+        imagePopup.style.backgroundImage = `url(${imageURL})`;
+        imagePopup.classList.add('image-popup');
+        
+
+        document.body.appendChild(backgroundPopup);
+        backgroundPopup.appendChild(imagePopup);
+    }
+
+
+    static SummonEventPopup(event) {
+        let backgroundPopup = GetPopupBackground();
         
         let eventPopup = document.createElement("div");
         eventPopup.classList.add('event-popup');

@@ -209,6 +209,9 @@ window.addEventListener("load", async function () {
         productCard.append(productImageField, nomeProdottoField, prezzoProdottoField);
 
         productsCarousel.appendChild(productCard);
+
+        productCard.addEventListener("click", () => Utilities.SummonImagePopup(event['product-image-url']));
+
     });
 
 

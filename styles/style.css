@@ -94,7 +94,7 @@ body {
     align-items: center;
     align-content: center;
     margin-left: 0.5em;
-    
+
     font-family: 'fuego-font';
 }
 
@@ -129,6 +129,74 @@ body {
 
     to {
         transform: scale(1.2);
+    }
+}
+
+
+/* -> popup background */
+
+.popup-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 101;
+
+    overflow: hidden;
+
+    background: rgba(0, 0, 0, 0.25);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+
+    animation: spawn-opacity .3s linear;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: stretch;
+    align-items: stretch;
+    align-content: stretch;
+    padding: 2em 1em;
+}
+
+@keyframes spawn-opacity {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.image-popup {
+    border: 4px solid black;
+
+    display: block;
+    background-color: var(--clr-3);
+    color: var(--clr-1);
+
+    height: auto;
+    border-radius: 16px;
+    z-index: 101;
+
+    flex: 1 0 auto;
+    animation: spawn-expand .2s linear;
+
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    overflow: hidden;
+}
+
+@keyframes spawn-expand {
+    from {
+        transform: scaleX(0);
+    }
+
+    to {
+        transform: scaleX(1)
     }
 }
 
