@@ -81,7 +81,7 @@ body {
     align-items: stretch;
     align-content: stretch;
 
-    padding: 0 2em 1.5em 2em;
+    padding: 1.5em 2em;
 
     gap: .5em;
 }
@@ -90,7 +90,10 @@ body {
 
 .section-title {
     font-family: "Inknut Antiqua";
-    font-size: 1.5em;
+    font-size: 1.3em;
+    line-height: 1em;
+
+    align-self: center;
     
     display: flex;
     justify-content: center;
@@ -99,7 +102,6 @@ body {
     
     text-overflow: ellipsis;
     white-space: nowrap;
-    align-self: center;
 }
 
 .paragraph {
