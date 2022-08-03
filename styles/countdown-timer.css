@@ -1,29 +1,28 @@
 .countdown-timer {
+  justify-self: center;
+  
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-evenly;
   align-items: center;
   align-content: center;
-  
-  justify-self: center;
 
-  
   --bg-flipCard: var(--clr-3);
   --fg-flipCard: var(--clr-1);
 }
 
 .flips-container {
+  justify-self: center;
+  
   font-size: .75em;
-
+  
   display: flex;
   flex-flow: row nowrap;
-  gap: 0.1em;
-
   justify-content: space-evenly;
   align-items: center;
   align-content: center;
+  gap: 0.1em;
 
-  justify-self: center;
 }
 
 .segment {
@@ -33,21 +32,23 @@
 }
 
 .segment-label {
-  font-size: 0.75em;
   align-self: flex-end;
+  
+  font-size: 0.75em;
 }
 
 .flip-card {
   position: relative;
   
-  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
-  border-radius: 0.1em;
-  
-  display: inline-flex;
-  flex-direction: column;
-
-  color: var(--fg-flipCard);
   width: 1em;
+  display: inline-flex;
+  
+  border-radius: 0.1em;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+
+  flex-direction: column;
+  color: var(--fg-flipCard);
+
 }
 
 .top,
@@ -55,8 +56,8 @@
 .flip-card .top-flip,
 .flip-card .bottom-flip {
   height: 0.75em;
-  line-height: 1;
   padding: 0.25em;
+  line-height: 1;
 
   overflow: hidden;
 }
@@ -66,8 +67,9 @@
   display: flex;
   align-items: flex-start;
   align-self: center;
-  background-color: var(--bg-flipCard);
   
+  background-color: var(--bg-flipCard);
+
   border-top-right-radius: 0.1em;
   border-top-left-radius: 0.1em;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -78,9 +80,9 @@
   display: flex;
   align-items: flex-end;
   align-self: center;
-  
+
   background-color: var(--bg-flipCard);
-  
+
   border-bottom-right-radius: 0.1em;
   border-bottom-left-radius: 0.1em;
 }
@@ -88,7 +90,7 @@
 .flip-card .top-flip {
   position: absolute;
   width: 100%;
-  
+
   animation: flip-top 250ms ease-in;
   transform-origin: bottom;
 }
@@ -103,7 +105,7 @@
   position: absolute;
   bottom: 0;
   width: 100%;
-  
+
   animation: flip-bottom 250ms ease-out 250ms;
   transform-origin: top;
   transform: rotateX(90deg);

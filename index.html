@@ -15,7 +15,7 @@
             <div class="logo-wrapper">
                 <span>F</span>
                 <span>U</span>
-                <span class="letter-logo">E</span>
+                <span class="logo">E</span>
                 <span>G</span>
                 <span>O</span>
             </div>
@@ -24,18 +24,18 @@
         <label class='menu-button-container' for="menu-toggle">
             <div class='menu-button'></div>
         </label>
-        <ul class="menu">
+        <ul class="nav-container">
             <li>
-                <a class="navigate-to" href="#a-whoarewe">CHI SIAMO</a>
+                <a class="navigate-to" data-container=".whoarewe-container" href="#a-whoarewe">CHI SIAMO</a>
             </li>
             <li>
-                <a class="navigate-to" href="#a-events">EVENTI</a>
+                <a class="navigate-to" data-container=".events-container" href="#a-events">EVENTI</a>
             </li>
             <li>
-                <a class="navigate-to" href="#a-merchandise">MERCHANDISE</a>
+                <a class="navigate-to" data-container=".merchandise-container" href="#a-merchandise">MERCHANDISE</a>
             </li>
             <li>
-                <a class="navigate-to" href="#a-contacts">SOCIAL E CONTATTI</a>
+                <a class="navigate-to" data-container=".contacts-container" href="#a-contacts">SOCIAL E CONTATTI</a>
             </li>
         </ul>
     </header>
@@ -43,18 +43,16 @@
         <section class="slideshow-container">
         </section>
         <a class="anchor" id="a-whoarewe"></a>
-        <section class="whoarewe-container">
+        <section class="website-section whoarewe-container">
             <h1 class="section-title">
-                <span>
-                    CHI SIAMO
-                </span>
+                CHI SIAMO
             </h1>
-            <div>
+            <div class="paragraph">
                 Il gruppo 
-                <div class="logo-wrapper-inline">
+                <div class="logo-wrapper">
                     <span>F</span>
                     <span>U</span>
-                    <span class="letter-logo">E</span>
+                    <span class="logo">E</span>
                     <span>G</span>
                     <span>O</span>
                 </div> 
@@ -62,48 +60,42 @@
                 di portare qualcosa di innovativo, divertente e tranquillo
                 nel mondo dei <strong>giovani di Rimini e dintorni</strong>.  
             </div>
-            <div>
+            <div class="paragraph">
                 Ci occupiamo delle discoteche più importanti della Riviera Romagnola: 
                 Peter Pan Club, Villa delle Rose, Cocoricò, Altromondo Studios, Pascià.
             </div>
-            <div>    
+            <div class="paragraph">    
                 Il nostro obiettivo però non è solamente gestire le vendite delle discoteche tradizionali, 
                 ma è quello di creare un <strong>format nuovo</strong>, che possa essere di grande impatto per i giovani, 
                 organizzando <strong>eventi esclusivi</strong> in tutta la provincia di Rimini.
             </div>
-            <div>
+            <div class="paragraph">
                 &#128293; Unisciti a noi! &#128293; 
             </div>
         </section>
         <a class="anchor" id="a-events"></a>
-        <section class="events-container">
+        <section class="website-section events-container">
             <h1 class="section-title">
-                <span>
-                    EVENTI
-                </span>
+                EVENTI
             </h1>
-            <div class="events-carousel"></div>
+            <div class="carousel"></div>
         </section>
         <a class="anchor" id="a-merchandise"></a>
-        <section class="merchandise-container">
-            <h1 class="section-title">
-                <span>
-                    MERCHANDISE
-                </span>
+        <section class="website-section merchandise-container">
+            <h1 class="section-title">    
+                MERCHANDISE
             </h1>
-            <div class="products-carousel"></div>
+            <div class="carousel"></div>
         </section>
         <a class="anchor" id="a-contacts"></a>
-        <section class="contacts-container">
+        <section class="website-section contacts-container">
             <h1 class="section-title">
-                <span>
-                    SOCIAL E CONTATTI
-                </span>
+                SOCIAL E CONTATTI
             </h1>
-            <div>
+            <div class="paragraph">
                 Per qualsiasi informazione e per tenerti aggiornato su eventi e merchandise, seguici sui nostri social: 
             </div>
-            <div class="social-container">
+            <div class="paragraph social-container">
                 <a href="https://www.instagram.com/staff_fuego/">
                     <div class="social-wrapper">
                         <img src="./resources/icons/instagram-icon.svg"  class="social-icon"/>
@@ -117,7 +109,7 @@
                     </div>
                 </a>
             </div>
-            <div>
+            <div class="paragraph">
                 o scrivici una mail:
             </div>
             <a href="mailto:r.m.fuego.r.m@gmail.com">
@@ -127,7 +119,7 @@
                 </div>
             </a>
             <hr/>
-            <div>
+            <div class="paragraph">
                 Per le foto dei nostri eventi:
             </div>
             <a href="https://www.facebook.com/r.m.staff.fuego.r.m/photos">

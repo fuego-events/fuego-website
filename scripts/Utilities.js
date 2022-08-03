@@ -38,13 +38,43 @@ class Utilities {
     static SummonImagePopup(imageURL) {
         let backgroundPopup = Utilities.GetPopupBackground();
 
-        let imagePopup = document.createElement("div");
-        imagePopup.style.backgroundImage = `url(${imageURL})`;
+        // const imageWrapper = document.createElement("div");
+        // imageWrapper.classList.add('image-wrapper');
+        
+        let imagePopup = document.createElement("img");
+        imagePopup.src = imageURL;
         imagePopup.classList.add('image-popup');
         
+        const imageX = document.createElement("div");
+        imageX.innerHTML = "&#10005;"
+        imageX.classList.add('image-x');
+        
+        const prevScrollY = window.scrollY;
+        const prevBodyOverflowY = document.body.style.overflowY;
+        const prevContainerOverflowY = document.querySelector(".container").style.overflowY;
 
+        document.body.style.overflowY = "hidden";
+        document.querySelector(".container").style.overflowY = "hidden";
+
+
+
+        imageX.addEventListener("click", function() {
+            document.body.removeChild(backgroundPopup);
+
+            document.body.style.overflowY = prevBodyOverflowY;
+            document.querySelector(".container").style.overflowY = prevContainerOverflowY;
+            window.scrollTo({
+                "left": 0,
+                "top": prevScrollY,
+                "behavior": "auto"
+            });
+        });
+
+
+        
         document.body.appendChild(backgroundPopup);
         backgroundPopup.appendChild(imagePopup);
+        backgroundPopup.appendChild(imageX);
     }
 
 
@@ -192,6 +222,18 @@ class Utilities {
         });
         flipCard.appendChild(topFlip);
         flipCard.appendChild(bottomFlip);
+    }
+
+    static GetFuegoLogo() {
+        const logoWrapper = document.createElement("div");
+        logoWrapper.classList.add("logo-wrapper");
+        logoWrapper.innerHTML = `
+        <span>F</span>
+        <span>U</span>
+        <span class="logo pulse">E</span>
+        <span>G</span>
+        <span>O</span>`;
+        return logoWrapper;
     }
 
 }

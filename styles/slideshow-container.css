@@ -1,8 +1,8 @@
 .slideshow-container {
     position: relative;
-    font-size: 3em;
-
     height: 110vh;
+
+    font-size: 3em;
 }
 
 .slideshow-item {

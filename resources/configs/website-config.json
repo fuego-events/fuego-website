@@ -1,0 +1,9 @@
+{
+    "videos-extensions": [
+        ".mp4"
+    ],
+    "images-extensions": [
+        ".jpg",
+        ".JPG"
+    ]
+}

@@ -6,7 +6,9 @@
 @import url("../styles/merchandise-container.css");
 @import url("../styles/contacts-container.css");
 @import url("../styles/footer-container.css");
-
+@import url("../styles/logo.css");
+@import url("../styles/navigate-to.css");
+@import url("../styles/carousel.css");
 
 
 @import url("https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300&display=swap");
@@ -28,6 +30,8 @@
     --clr-2: #dc143c;
     --clr-3: #fff;
     --clr-4: #a0a0a0;
+
+    --topbar-zindex: 100;
 
     --font-sz: calc(12px + 2vw);
 }
@@ -55,9 +59,7 @@ body {
     top: -2em;
 }
 
-
-
-/* -> Main container */
+/* ----- MAIN CONTAINER ----- */
 
 .container {
     overflow-x: hidden;
@@ -67,70 +69,45 @@ body {
     flex-flow: column nowrap;
     align-items: stretch;
     align-content: stretch;
-    justify-items: stretch;
     justify-content: stretch;
 }
 
-/* logo */
+/* ----- WEBSITE SECTIONS ----- */
 
-.logo-wrapper {
-    /* gap: .3em; */
-
+.website-section {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
+    justify-content: stretch;
+    align-items: stretch;
+    align-content: stretch;
+
+    padding: 0 2em 1.5em 2em;
+
+    gap: .5em;
+}
+
+/* ----- SECTIONS TITLE ----- */
+
+.section-title {
+    font-family: "Inknut Antiqua";
+    font-size: 1.5em;
+    
+    display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
-
-    font-family: 'fuego-font';
+    
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    align-self: center;
 }
 
-.logo-wrapper-inline {
-    gap: .3em;
-
-    display: inline-flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    margin-left: 0.5em;
-
-    font-family: 'fuego-font';
+.paragraph {
+    font-size: 0.8em;
+    line-height: 1.5em;
+    text-align: justify;
 }
 
-.logo-wrapper span {
-    display: inline-block;
-    width: .8em;
-    font-size: 1em;
-    font-weight: 600;
-    text-align: center;
-    text-transform: uppercase;
-
-    z-index: 1;
-    user-select: none;
-}
-
-.pulse {
-    animation: pulse 1.5s ease-in-out alternate infinite;
-}
-
-.letter-logo {
-    font-size: 1.5em !important;
-}
-
-.pulse-logo:hover {
-    cursor: pointer;
-}
-
-@keyframes pulse {
-    from {
-        transform: scale(1);
-    }
-
-    to {
-        transform: scale(1.2);
-    }
-}
 
 
 /* -> popup background */
@@ -148,14 +125,15 @@ body {
     background: rgba(0, 0, 0, 0.25);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 
     animation: spawn-opacity .3s linear;
 
     display: flex;
     flex-flow: row nowrap;
-    justify-content: stretch;
-    align-items: stretch;
-    align-content: stretch;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     padding: 2em 1em;
 }
 
@@ -169,26 +147,7 @@ body {
     }
 }
 
-.image-popup {
-    border: 4px solid black;
 
-    display: block;
-    background-color: var(--clr-3);
-    color: var(--clr-1);
-
-    height: auto;
-    border-radius: 16px;
-    z-index: 101;
-
-    flex: 1 0 auto;
-    animation: spawn-expand .2s linear;
-
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center center;
-    overflow: hidden;
-}
 
 @keyframes spawn-expand {
     from {
@@ -197,6 +156,45 @@ body {
 
     to {
         transform: scaleX(1)
+    }
+}
+
+.image-popup {
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+
+    display: block;
+    background-color: var(--clr-3);
+    color: var(--clr-1);
+    z-index: 101;
+
+    animation: spawn-expand .2s linear;
+
+    overflow: hidden;
+}
+
+
+.image-x {
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    padding: .5em;
+    line-height: 1em;
+    background-color: #fff;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    
+}
+
+@media (hover: hover) {
+    .image-x:hover {
+        cursor: pointer;
     }
 }
 
