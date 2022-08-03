@@ -79,10 +79,34 @@ Ogni evento deve contenere i seguenti campi:
 - "party-image-url": "../resources/events-images/event-02.jpeg", ovvero il percorso dell'immagine dell'evento
 - "party-location": "Chiringuito Kokale - Bagno 63 Rimini (RN)", ovvero l'indirizzo dell'evento
 - "party-url": null, ovvero il link per ottenere ulteriori informazioni sull'evento o per comprare i biglietti.   
-Inserire la scritta _null_ (senza doppi apici) per indicare la mancanza di un link.  
+
+Inserire la scritta _null_ (senza doppi apici) per indicare la *mancanza* di un link.  
 Le immagini possono essere sia l'indirizzo di un'immagine che si trova online, sia l'indirizzo di un'immagine caricata.
 Per caricare un'immagine, inserire il file dentro la cartella _Resources_ -> _events-images_
 Per inserirla nel campo _party-image-url_ anteporre al nome del file il seguente testo "../resources/events-images/"  
 ```
 es. "party-image-url": "../resources/events-images/immagine1.jpg"
 ```
+
+Una volta terminate le modifiche scorrere in fondo alla pagina, inserire come testo sotto alla scritta _commit changes_ il seguente testo: Modifica eventi 3/7/2022 (La data sarà quella del giorno di modifica).  
+Infine cliccare il pulsante verde con scritto _commit changes_.
+
+## AGGIUNGERE UN PRODOTTO:
+Per aggiungere un qualsiasi prodotto è necessario recarsi nella cartella _resources_, poi nella cartella _configs_ e, infine, il file _merchandise-config.json_.  
+Una volta visualizzato cliccare sulla matita per modificare il documento.  
+Il documento di configurazione dei prodotti è una lista contenente numerosi oggetti.  
+Ogni oggetto rappresenta un singolo prodotto.  
+Ogni prodotto deve contenere i seguenti campi:
+- "product-name": "Maglietta FUEGO", ovvero il nome del prodotto
+- "product-price": "25 €", ovvero il prezzo del prodotto
+- "product-image-url": "https://img01.ztat.net/article/spp-media-p1/82e5e24466bb4e21a871cab2a16bea60/5ac9292a19c14873b90e830ef5829b76.jpg?imwidth=1800&filter=packshot", ovvero il percorso dell'immagine del prodotto
+
+Le immagini possono essere sia l'indirizzo di un'immagine che si trova online, sia l'indirizzo di un'immagine caricata.
+Per caricare un'immagine, inserire il file dentro la cartella _Resources_ -> _products-images_
+Per inserirla nel campo _product-image-url_ anteporre al nome del file il seguente testo "../resources/products-images/"  
+```
+es. "product-image-url": "../resources/products-images/immagine1.jpg"
+```
+
+Una volta terminate le modifiche scorrere in fondo alla pagina, inserire come testo sotto alla scritta _commit changes_ il seguente testo: Modifica prodotti 3/7/2022 (La data sarà quella del giorno di modifica).  
+Infine cliccare il pulsante verde con scritto _commit changes_.
