@@ -40,6 +40,7 @@ class Utilities {
         
         let imagePopup = document.createElement("img");
         imagePopup.src = imageURL;
+        imagePopup.alt = "Immagine prodotto";
         imagePopup.classList.add('image-popup');
         
         const imageX = document.createElement("div");
@@ -57,9 +58,7 @@ class Utilities {
         
         document.body.style.overflowY = "hidden";
         document.querySelector(".container").style.overflowY = "hidden";
-        const menuToggle = document.querySelector("#menu-toggle").checked = false;
-        
-        
+        document.querySelector("#menu-toggle").checked = false; 
 
         imageX.addEventListener("click", function() {
             document.body.removeChild(backgroundPopup);
