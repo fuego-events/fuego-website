@@ -100,7 +100,7 @@ class Utilities {
         // G | > 0 D = D D D | H H | M M
         // H | <= 0 D = H H | M M | S S  
         let toReturn = "";
-        if(days > 0 || forceDayMode) toReturn += "G" + ((days > 9) ? "9+" : (days.toString().padStart(3, '0')));
+        if(days > 0 || forceDayMode) toReturn += "G" + ((days > 9) ? "9+" : (days.toString().padStart(2, '0')));
         else toReturn += "H";
 
         toReturn += hours.toString().padStart(2, 0);
