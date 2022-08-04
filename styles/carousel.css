@@ -35,13 +35,13 @@
     gap: .25em;
 }
 
-.party-image {
+.card-image {
     width: 6em;
     height: 6em;
     border-radius: 50%;
 
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
 
     align-self: center;

@@ -37,7 +37,6 @@ window.addEventListener("load", async function () {
 
     const slideshowContainer = document.querySelector(".slideshow-container");
     const slideshowConfigs = await fetch("../resources/configs/slideshow-config.json").then((file) => file.json() );
-    
     const items = [];
     
     let wallpapers = slideshowConfigs['images'].reverse();
@@ -105,7 +104,6 @@ window.addEventListener("load", async function () {
         );
 
         animation.onfinish = () => {
-
             if(items[index].hasAttribute('video')) items[index].querySelector('video').pause(); 
             else items[index].classList.remove('item-ontop');
 
@@ -135,11 +133,11 @@ window.addEventListener("load", async function () {
         let eventCard = document.createElement("div");
         eventCard.classList.add("carousel-card");
 
-        let eventDate = new Date(event['party-timestamp'] * 1000);
+        const eventDate = new Date(event['party-timestamp'] * 1000);
         let eventFinishedTicks = new Date(eventDate.getTime() + DURATA_EVENTO);
         
         const partyImageField = document.createElement("div");
-        partyImageField.classList.add("party-image");
+        partyImageField.classList.add("card-image");
         partyImageField.style.backgroundImage = `url(${event['party-image-url']})`;
 
         const nomeEventoField = Utilities.GetFieldContainer("Nome evento", event['party-name']);
@@ -152,35 +150,43 @@ window.addEventListener("load", async function () {
 
         eventCard.append(partyImageField, nomeEventoField, dataEventoField, luogoEventoField, countdownField);
 
-        let eventoFinito = Date.now() > eventFinishedTicks;
-
-        let toReplace = (eventoFinito) ? Utilities.GetFlipCardGroup("", "FINITO") : Utilities.GetCountdownTimer(Utilities.DateDifference(eventDate, new Date()));
-
+        let toReplace;
+        let toActive = false;
+        // Attesa
+        if(Date.now() < eventDate) {
+            toReplace = Utilities.GetCountdownTimer(Utilities.DateDifference(eventDate, new Date()));
+            toActive = true;
+        }else if(Date.now() < eventFinishedTicks) {
+            toReplace = Utilities.GetFlipCardGroup("", "IN CORSO"); 
+        }else {
+            toReplace = Utilities.GetFlipCardGroup("", "FINITO");
+        }
         countdownField.replaceChild(toReplace, countdownField.querySelector(".field-content")); 
-        if(!eventoFinito) {
+        if(toActive) {
             let id = window.setInterval(() => {
                 let ticks = Utilities.DateDifference(eventDate, new Date());
                 if(ticks < 0) {
-                    countdownField.replaceChild(Utilities.GetFlipCardGroup("","FINITO"), toReplace);
+                    countdownField.replaceChild(Utilities.GetFlipCardGroup("","IN CORSO"), toReplace);
                     window.clearInterval(id);
                     return;
                 };
                 Utilities.UpdateCountdown(countdownField, ticks);
             }, 1000)
         }
-        
+
         eventsCarousel.appendChild(eventCard);
     });
 
     // -> Shop carousel
     const products = await fetch("../resources/configs/merchandise-config.json").then((file) => file.json() );
     const productsCarousel = document.querySelector(".merchandise-container .carousel");
+    
     products.forEach(event => {
-        let productCard = document.createElement("div");
+        const productCard = document.createElement("div");
         productCard.classList.add("carousel-card");
         
         const productImageField = document.createElement("div");
-        productImageField.classList.add("party-image");
+        productImageField.classList.add("card-image");
         productImageField.style.backgroundImage = `url(${event['product-image-url']})`;
 
         const nomeProdottoField = Utilities.GetFieldContainer("Nome prodotto", event['product-name']);

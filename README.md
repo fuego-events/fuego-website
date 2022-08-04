@@ -1,26 +1,12 @@
-# LINK AL SITO:
+# - LINK AL SITO -
 https://fuego-events.com
 
-# INDICAZIONI PER EFFETTUARE LE MODIFICHE
+# - INDICAZIONI PER EFFETTUARE LE MODIFICHE -
 
-## COME SONO FATTI I DOCUMENTI DI CONFIGURAZIONE?
-Tutti i file di configurazione sono _.json_.  
-Ogni documento non è dissimile dal seguente:
+## Un consiglio per le immagini...
 
-```
-{
-    "nomeCampo": "valore",
-    "altroNomeCampo": 0,
-    "campoLista": [
-        "elemento1",
-        "elemento2"
-    ]
-}
-```
-Ma cosa significano questi simboli:
-
-Le parentesi graffe '_{}_' indicano un _oggetto_, ovvero un contenitore che può contenere diversi campi.  
-Ogni campo può essere una _stringa_, un numero, un altro _oggetto_ o una _lista_.
+## Come sono fatti i file di configurazione ?
+Tutti i file di configurazione sono _.json_. I file _json_ prevedono i seguenti campi:
 
 ### Le stringhe
 Le _stringhe_ contengono testo, ovvero caratteri. Ogni stringa è delimitata dai doppi apici (o virgolette alte) _"_.
@@ -68,7 +54,7 @@ Ogni lista è delimitata dalle parentesi quadrate _[]_.
 ```
 Ogni valore è separato da una virgola (_,_) dal campo successivo (a meno che non sia l'ultimo).
 
-## AGGIUNGERE UN EVENTO:
+## - Aggiungere un evento -
 Per aggiungere un qualsiasi evento è necessario recarsi nella cartella _resources_, poi nella cartella _configs_ e, infine, il file _events-config.json_.  
 Una volta visualizzato cliccare sulla matita per modificare il documento.  
 Il documento di configurazione degli eventi è una lista contenente numerosi oggetti.  
@@ -91,7 +77,7 @@ es. "party-image-url": "../resources/events-images/immagine1.jpg"
 Una volta terminate le modifiche scorrere in fondo alla pagina, inserire come testo sotto alla scritta _commit changes_ il seguente testo: Modifica eventi 3/7/2022 (La data sarà quella del giorno di modifica).  
 Infine cliccare il pulsante verde con scritto _commit changes_.
 
-## AGGIUNGERE UN PRODOTTO:
+## - Aggiungere un prodotto -
 Per aggiungere un qualsiasi prodotto è necessario recarsi nella cartella _resources_, poi nella cartella _configs_ e, infine, il file _merchandise-config.json_.  
 Una volta visualizzato cliccare sulla matita per modificare il documento.  
 Il documento di configurazione dei prodotti è una lista contenente numerosi oggetti.  
