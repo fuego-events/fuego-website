@@ -3,8 +3,6 @@ https://fuego-events.com
 
 # - INDICAZIONI PER EFFETTUARE LE MODIFICHE -
 
-## Un consiglio per le immagini...
-
 ## Come sono fatti i file di configurazione ?
 Tutti i file di configurazione sono _.json_. I file _json_ prevedono i seguenti campi:
 
