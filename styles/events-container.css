@@ -2,27 +2,3 @@
     background-color: var(--clr-1);
     color: var(--clr-3);
 }
-
-
-.event-popup {
-    display: block;
-    background-color: var(--clr-3);
-    color: var(--clr-1);
-
-    height: auto;
-    border-radius: 16px;
-    z-index: 101;
-
-    flex: 1 0 auto;
-    animation: spawn-expand .2s linear;
-}
-
-@keyframes spawn-expand {
-    from {
-        transform: scaleX(0);
-    }
-
-    to {
-        transform: scaleX(1)
-    }
-}

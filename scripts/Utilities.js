@@ -37,9 +37,6 @@ class Utilities {
 
     static SummonImagePopup(imageURL) {
         let backgroundPopup = Utilities.GetPopupBackground();
-
-        // const imageWrapper = document.createElement("div");
-        // imageWrapper.classList.add('image-wrapper');
         
         let imagePopup = document.createElement("img");
         imagePopup.src = imageURL;
@@ -49,14 +46,20 @@ class Utilities {
         imageX.innerHTML = "&#10005;"
         imageX.classList.add('image-x');
         
+
+
+        // -> Make unclickable the background
+        
         const prevScrollY = window.scrollY;
         const prevBodyOverflowY = document.body.style.overflowY;
         const prevContainerOverflowY = document.querySelector(".container").style.overflowY;
-
+        
+        
         document.body.style.overflowY = "hidden";
         document.querySelector(".container").style.overflowY = "hidden";
-
-
+        const menuToggle = document.querySelector("#menu-toggle").checked = false;
+        
+        
 
         imageX.addEventListener("click", function() {
             document.body.removeChild(backgroundPopup);
@@ -75,41 +78,6 @@ class Utilities {
         document.body.appendChild(backgroundPopup);
         backgroundPopup.appendChild(imagePopup);
         backgroundPopup.appendChild(imageX);
-    }
-
-
-    static SummonEventPopup(event) {
-        let backgroundPopup = GetPopupBackground();
-        
-        let eventPopup = document.createElement("div");
-        eventPopup.classList.add('event-popup');
-
-        document.body.appendChild(backgroundPopup);
-        backgroundPopup.appendChild(eventPopup);
-
-
-        
-        const prevScrollY = window.scrollY;
-        const prevBodyOverflowY = document.body.style.overflowY;
-        const prevContainerOverflowY = document.querySelector(".container").style.overflowY;
-
-        document.body.style.overflowY = "hidden";
-        document.querySelector(".container").style.overflowY = "hidden";
-
-
-        backgroundPopup.addEventListener("click", () => {
-
-            document.body.style.overflowY = prevBodyOverflowY;
-            document.querySelector(".container").style.overflowY = prevContainerOverflowY;
-            window.scrollTo({
-                "left": 0,
-                "top": prevScrollY,
-                "behavior": "auto"
-            });
-
-            document.body.removeChild(backgroundPopup);
-        });
-
     }
 
 

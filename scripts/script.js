@@ -130,7 +130,11 @@ window.addEventListener("load", async function () {
     
     const eventsCarousel = document.querySelector(".events-container .carousel");
     events.forEach(event => {
-        let eventCard = document.createElement("div");
+
+        const aContainer = document.createElement("a");
+        if(event['party-url'] != null) aContainer.href = event['party-url'];
+
+        const eventCard = document.createElement("div");
         eventCard.classList.add("carousel-card");
 
         const eventDate = new Date(event['party-timestamp'] * 1000);
@@ -174,7 +178,8 @@ window.addEventListener("load", async function () {
             }, 1000)
         }
 
-        eventsCarousel.appendChild(eventCard);
+        aContainer.appendChild(eventCard);
+        eventsCarousel.appendChild(aContainer);
     });
 
     // -> Shop carousel

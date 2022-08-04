@@ -23,6 +23,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    user-select: none;
 }
 
 :root {
@@ -91,7 +92,7 @@ body {
 .section-title {
     font-family: "Inknut Antiqua";
     font-size: 1.3em;
-    line-height: 1em;
+    line-height: 1.5em;
 
     align-self: center;
     
@@ -110,9 +111,7 @@ body {
     text-align: justify;
 }
 
-
-
-/* -> popup background */
+/* ----- POPUP ----- */
 
 .popup-background {
     position: fixed;
@@ -149,8 +148,6 @@ body {
     }
 }
 
-
-
 @keyframes spawn-expand {
     from {
         transform: scaleX(0);
@@ -176,7 +173,6 @@ body {
     overflow: hidden;
 }
 
-
 .image-x {
     position: absolute;
     right: 1em;
@@ -189,9 +185,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    align-content: center;
-
-    
+    align-content: center;   
 }
 
 @media (hover: hover) {
@@ -206,14 +200,10 @@ body {
     width: 1vw;
 }
 
-::-webkit-scrollbar-track {
-    background: white;
-}
-
 ::-webkit-scrollbar-thumb {
-    background: lightgray;
+    background: #d3d3d3;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: gray;
+    background: #808080;
 }

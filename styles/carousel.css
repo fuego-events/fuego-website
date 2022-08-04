@@ -1,10 +1,10 @@
 .carousel {
     display: flex;
-
     flex-flow: row nowrap;
-    overflow-x: scroll;
+    gap: 1em; 
+
     
-    gap: 1em;
+    overflow-x: scroll;
     
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
@@ -12,8 +12,12 @@
     padding: 1em 0;
 }
 
-.carousel::-webkit-scrollbar {
-    display: none;
+.merchandise-container .carousel::-webkit-scrollbar-track {
+    background-color: var(--clr-3);
+}
+
+.events-container .carousel::-webkit-scrollbar-track {
+    background-color: var(--clr-1);
 }
 
 
@@ -41,7 +45,7 @@
     border-radius: 50%;
 
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
 
     align-self: center;
