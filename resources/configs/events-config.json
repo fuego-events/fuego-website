@@ -5,40 +5,5 @@
       "party-image-url": "chiringuito kokale 04 08",
       "party-location": "Chiringuito Kokale - Bagno 63 Rimini (RN)",
       "party-url": null 
-    },
-    {
-      "party-name": "21/07 GLOW PARTY",
-      "party-timestamp": 1658437200,
-      "party-image-url": "../resources/events-images/event-02.jpeg",
-      "party-location": "Chiringuito Kokale - Bagno 63 Rimini (RN)",
-      "party-url": null
-    },
-    {
-      "party-name": "26/07 SEA WAY",
-      "party-timestamp": 1659296689,
-      "party-image-url": "../resources/events-images/event-01.jpeg",
-      "party-location": "Chiringuito Nettuno Caicos - Bagno 26 Rimini (RN)",
-      "party-url": "https://www.ticketsms.it/it/event/WqD1UKyV"
-    },
-    {
-      "party-name": "01/09 VIDA LOCA - VILLA DELLE ROSE",
-      "party-timestamp": 1662066000,
-      "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/8a8b1994-59b0-4223-bcb5-722d1f202a31.jpeg",
-      "party-location": "Via Camilluccia, 16 47843 Misano Adriatico (RN)",
-      "party-url": "https://www.ticketsms.it/it/event/WqD1UKyV"
-    },
-    {
-      "party-name": "22/07 CLOROPHILLA - VILLA DELLE ROSE",
-      "party-timestamp": 1658523600,
-      "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/4372099b-7691-48cb-9464-fe6f4443afe0.jpeg",
-      "party-location": "Via Camilluccia, 16 47843 Misano Adriatico (RN)",
-      "party-url": "https://www.ticketsms.it/it/event/GP71TqdE"
-    },
-    {
-      "party-name": "19/07 VITA - DENNIS CRUZ - VILLA DELLE ROSE",
-      "party-timestamp": 1658437200,
-      "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/8a8b1994-59b0-4223-bcb5-722d1f202a31.jpeg",
-      "party-location": "Via Camilluccia, 16 47843 Misano Adriatico (RN)",
-      "party-url": "https://www.ticketsms.it/it/event/PlvVBX5W"
     }
   ]
