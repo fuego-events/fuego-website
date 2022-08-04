@@ -5,5 +5,12 @@
       "party-image-url": "../resources/events-images/chiringuito kokale 04 08.jpeg",
       "party-location": "Chiringuito Kokale - Bagno 63 Rimini (RN)",
       "party-url": null 
+    },
+   {
+      "party-name": "09/08 FUEGO-SUERTE SEAWAY",
+      "party-timestamp": 1660071600,
+      "party-image-url": "../resources/events-images/fuego-suerte seaway 09 08.jpeg",
+      "party-location": "Chiringuito Caicos/Nettuno - Bagno 28 Rimini (RN)",
+      "party-url": null 
     }
   ]
