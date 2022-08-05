@@ -82,7 +82,7 @@ class Utilities {
 
     // -> Countdown
 
-    static GIORNI_SETTIMANA = ["Lunedì", "Martedì","Mercoledì","Giovedì","Venerdì","Sabato","Domenica"];
+    static GIORNI_SETTIMANA = ["Domenica","Lunedì", "Martedì","Mercoledì","Giovedì","Venerdì","Sabato"];
 
     static MESI_ANNO = ["Gennaio","Febbraio","Marzo","Aprile","Maggio","Giugno","Luglio","Agosto","Settembre","Ottobre","Novembre","Dicembre"]
 
