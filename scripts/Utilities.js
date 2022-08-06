@@ -39,15 +39,21 @@ class Utilities {
         return backgroundPopup;
     }
 
-    static SummonImagePopup(imageFront, imageBack) {
+    static SummonImagePopup(imageName, imageFront, imageBack) {
         const backgroundPopup = Utilities.GetPopupBackground();
 
         const card_container = document.createElement("div");
         card_container.classList.add("card");
         card_container.innerHTML = `
         <div class="card_content">
-            <div class="card_front"><span>FRONTE</span></div>
-            <div class="card_back"><span>RETRO</span></div>
+            <div class="card_front">
+                <span class="card-title">${imageName}</span>
+                <span class="card-subtitle">FRONTE</span>
+            </div>
+            <div class="card_back">
+                <span class="card-title">${imageName}</span>
+                <span class="card-subtitle">RETRO</span>
+            </div>
         </div>`;
         card_container.querySelector(".card_front").style.backgroundImage = `url(${imageFront})`;
         card_container.querySelector(".card_back").style.backgroundImage = `url(${imageBack})`; 

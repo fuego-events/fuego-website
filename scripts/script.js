@@ -187,6 +187,8 @@ window.addEventListener("load", async function () {
     const productsCarousel = document.querySelector(".merchandise-container .carousel");
     const FLIP_DELAY = 2.5 * 1000;
     products.forEach(product => {
+        const aContainer = document.createElement("a");
+        
         const productCard = document.createElement("div");
         productCard.classList.add("carousel-card");
         
@@ -206,14 +208,14 @@ window.addEventListener("load", async function () {
 
         productCard.append(productImageField, nomeProdottoField, prezzoProdottoField);
 
-        productsCarousel.appendChild(productCard);
+        aContainer.appendChild(productCard);
+        productsCarousel.appendChild(aContainer);
 
-        productCard.addEventListener("click", () => Utilities.SummonImagePopup(product['product-front-image-url'], product['product-back-image-url']));
+        productCard.addEventListener("click", () => Utilities.SummonImagePopup(product['product-name'], product['product-front-image-url'], product['product-back-image-url']));
 
         window.setInterval(function() {
             Utilities.FlipFrontBackCard(productImageField)
         }, FLIP_DELAY);
-
 
     });
 

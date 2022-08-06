@@ -422,6 +422,8 @@ body {
     align-items: stretch;
     align-content: stretch;
     gap: 0.25em;
+
+    overflow: hidden;
 }
 
 .card-image {
@@ -597,15 +599,17 @@ body {
 .product-image-card,
 .product-image-card .card_front,
 .product-image-card .card_back {
-    aspect-ratio: 1 / 1;
-    background-position: center;
+    width: 4em;
+    height: 4em;
     border-radius: 50%;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    align-self: center;
 }
 
-
-.product-image-card {
-    width: 100%;
-}
 
 
 .card {
@@ -635,7 +639,8 @@ body {
     left: 0;
     right: 0;
     background-size: cover;
-
+    
+    overflow: hidden;
     backface-visibility: hidden;
     transform-style: preserve-3d;
 
@@ -647,10 +652,19 @@ body {
     justify-content: flex-start;
 }
 
-.card_front span,
-.card_back span {
+.card_content span {
+    display: inline-block;
     font-family: "Poppins";
+    white-space: nowrap;
+    text-overflow: ellipsis;   
+}
+
+.card-title {
     font-size: .5em;
+}
+
+.card-subtitle {
+    font-size: .4em;
 }
 
 .card_back {
@@ -827,6 +841,9 @@ body {
     color: var(--clr-1);
 }
 
+.merchandise-container .carousel-card {
+    width: 6em;
+}
 
 /* ----- footer ----- */
 
