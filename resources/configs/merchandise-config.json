@@ -1,39 +1,38 @@
 [
-    {
-      "product-front-image-url": "../resources/products-images/tshirt-front-flame.png",
-      "product-back-image-url": "../resources/products-images/tshirt-back-blank.png",
-      "product-name": "T-shirt FUEGO",
-      "product-price": 25 
-    },
-    {
-      "product-front-image-url": "../resources/products-images/tshirt-front-flame.png",
-      "product-back-image-url": "../resources/products-images/tshirt-back-print.png",
-      "product-name": "T-shirt FUEGO",
-      "product-price": 25 
-    },
-    {
-      "product-front-image-url": "../resources/products-images/tshirt-front-pure.png",
-      "product-back-image-url": "../resources/products-images/tshirt-back-blank.png",
-      "product-name": "T-shirt FUEGO",
-      "product-price": 25 
-    },
-    {
-      "product-front-image-url": "../resources/products-images/tshirt-front-pure.png",
-      "product-back-image-url": "../resources/products-images/tshirt-back-print.png",
-      "product-name": "T-shirt FUEGO",
-      "product-price": 25 
-    },
-    {
-      "product-front-image-url": "../resources/products-images/tshirt-front-lips.png",
-      "product-back-image-url": "../resources/products-images/tshirt-back-blank.png",
-      "product-name": "T-shirt FUEGO",
-      "product-price": 25 
-    },
-    {
-      "product-front-image-url": "../resources/products-images/tshirt-front-lips.png",
-      "product-back-image-url": "../resources/products-images/tshirt-back-print.png",
-      "product-name": "T-shirt FUEGO",
-      "product-price": 25 
-    }
-    
-  ]
+  {
+    "product-front-image-url": "../resources/products-images/tshirt-front-flame.png",
+    "product-back-image-url": "../resources/products-images/tshirt-back-blank.png",
+    "product-name": "T-shirt FUEGO",
+    "product-price": 20
+  },
+  {
+    "product-front-image-url": "../resources/products-images/tshirt-front-flame.png",
+    "product-back-image-url": "../resources/products-images/tshirt-back-print.png",
+    "product-name": "T-shirt FUEGO",
+    "product-price": 25
+  },
+  {
+    "product-front-image-url": "../resources/products-images/tshirt-front-pure.png",
+    "product-back-image-url": "../resources/products-images/tshirt-back-blank.png",
+    "product-name": "T-shirt FUEGO",
+    "product-price": 20
+  },
+  {
+    "product-front-image-url": "../resources/products-images/tshirt-front-pure.png",
+    "product-back-image-url": "../resources/products-images/tshirt-back-print.png",
+    "product-name": "T-shirt FUEGO",
+    "product-price": 25
+  },
+  {
+    "product-front-image-url": "../resources/products-images/tshirt-front-lips.png",
+    "product-back-image-url": "../resources/products-images/tshirt-back-blank.png",
+    "product-name": "T-shirt FUEGO",
+    "product-price": 20
+  },
+  {
+    "product-front-image-url": "../resources/products-images/tshirt-front-lips.png",
+    "product-back-image-url": "../resources/products-images/tshirt-back-print.png",
+    "product-name": "T-shirt FUEGO",
+    "product-price": 25
+  }
+]
