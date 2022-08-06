@@ -1,22 +1,39 @@
 [
     {
-      "product-image-url": "https://img01.ztat.net/article/spp-media-p1/82e5e24466bb4e21a871cab2a16bea60/5ac9292a19c14873b90e830ef5829b76.jpg?imwidth=1800&filter=packshot",
-      "product-name": "T-shirt FUEGO bianca",
-      "product-price": "20 €" 
+      "product-front-image-url": "../resources/products-images/tshirt-front-flame.png",
+      "product-back-image-url": "../resources/products-images/tshirt-back-blank.png",
+      "product-name": "T-shirt FUEGO",
+      "product-price": 25 
     },
     {
-      "product-image-url": "https://img01.ztat.net/article/spp-media-p1/bb7525799c964024b264693934c9d00d/1667d09dca424211ad23b3ef83dabb5f.jpg?imwidth=1800&filter=packshot",
-      "product-name": "T-shirt FUEGO nera",
-      "product-price": "20 €" 
+      "product-front-image-url": "../resources/products-images/tshirt-front-flame.png",
+      "product-back-image-url": "../resources/products-images/tshirt-back-print.png",
+      "product-name": "T-shirt FUEGO",
+      "product-price": 25 
     },
     {
-      "product-image-url": "https://img01.ztat.net/article/spp-media-p1/d5492cdbb40c4534a78d43a6764f2d68/a8ddb044b777453b86bca6ec7f3eb998.jpg?imwidth=1800&filter=packshot",
-      "product-name": "T-shirt FUEGO rossa",
-      "product-price": "20 €" 
+      "product-front-image-url": "../resources/products-images/tshirt-front-pure.png",
+      "product-back-image-url": "../resources/products-images/tshirt-back-blank.png",
+      "product-name": "T-shirt FUEGO",
+      "product-price": 25 
     },
     {
-      "product-image-url": "https://img01.ztat.net/article/spp-media-p1/2b0cedee27174f35bb3c1925841d31af/1e8c7278353c4f23b6c222b3149373d5.jpg?imwidth=1800&filter=packshot",
-      "product-name": "T-shirt FUEGO rossa",
-      "product-price": "20 €" 
+      "product-front-image-url": "../resources/products-images/tshirt-front-pure.png",
+      "product-back-image-url": "../resources/products-images/tshirt-back-print.png",
+      "product-name": "T-shirt FUEGO",
+      "product-price": 25 
+    },
+    {
+      "product-front-image-url": "../resources/products-images/tshirt-front-lips.png",
+      "product-back-image-url": "../resources/products-images/tshirt-back-blank.png",
+      "product-name": "T-shirt FUEGO",
+      "product-price": 25 
+    },
+    {
+      "product-front-image-url": "../resources/products-images/tshirt-front-lips.png",
+      "product-back-image-url": "../resources/products-images/tshirt-back-print.png",
+      "product-name": "T-shirt FUEGO",
+      "product-price": 25 
     }
+    
   ]

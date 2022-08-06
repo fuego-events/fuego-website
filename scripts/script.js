@@ -185,24 +185,35 @@ window.addEventListener("load", async function () {
     // -> Shop carousel
     const products = await fetch("../resources/configs/merchandise-config.json").then((file) => file.json() );
     const productsCarousel = document.querySelector(".merchandise-container .carousel");
-    
-    products.forEach(event => {
+    const FLIP_DELAY = 2.5 * 1000;
+    products.forEach(product => {
         const productCard = document.createElement("div");
         productCard.classList.add("carousel-card");
         
         const productImageField = document.createElement("div");
-        productImageField.classList.add("card-image");
-        productImageField.style.backgroundImage = `url(${event['product-image-url']})`;
+        productImageField.classList.add("product-image-card");
+        productImageField.innerHTML = `
+        <div class="card_content">
+            <div class="card_front"></div>
+            <div class="card_back"></div>
+        </div>`;
+        productImageField.querySelector(".card_front").style.backgroundImage = `url(${product['product-front-image-url']})`;
+        productImageField.querySelector(".card_back").style.backgroundImage = `url(${product['product-back-image-url']})`;
 
-        const nomeProdottoField = Utilities.GetFieldContainer("Nome prodotto", event['product-name']);
+        const nomeProdottoField = Utilities.GetFieldContainer("Nome prodotto", product['product-name']);
         
-        const prezzoProdottoField = Utilities.GetFieldContainer("Prezzo prodotto", event['product-price']);
+        const prezzoProdottoField = Utilities.GetFieldContainer("Prezzo prodotto", product['product-price'] + " €");
 
         productCard.append(productImageField, nomeProdottoField, prezzoProdottoField);
 
         productsCarousel.appendChild(productCard);
 
-        productCard.addEventListener("click", () => Utilities.SummonImagePopup(event['product-image-url']));
+        productCard.addEventListener("click", () => Utilities.SummonImagePopup(product['product-front-image-url'], product['product-back-image-url']));
+
+        window.setInterval(function() {
+            Utilities.FlipFrontBackCard(productImageField)
+        }, FLIP_DELAY);
+
 
     });
 

@@ -29,26 +29,39 @@ class Utilities {
 
     // -> Popup
 
+    static FlipFrontBackCard(card) {
+        card.setAttribute("data-state", (card.getAttribute("data-state") === "flipped") ? "default" : "flipped");
+    }
+
     static GetPopupBackground() {
         let backgroundPopup = document.createElement("div");
         backgroundPopup.classList.add('popup-background');
         return backgroundPopup;
     }
 
-    static SummonImagePopup(imageURL) {
-        let backgroundPopup = Utilities.GetPopupBackground();
-        
-        let imagePopup = document.createElement("img");
-        imagePopup.src = imageURL;
-        imagePopup.alt = "Immagine prodotto";
-        imagePopup.classList.add('image-popup');
-        
+    static SummonImagePopup(imageFront, imageBack) {
+        const backgroundPopup = Utilities.GetPopupBackground();
+
+        const card_container = document.createElement("div");
+        card_container.classList.add("card");
+        card_container.innerHTML = `
+        <div class="card_content">
+            <div class="card_front"><span>FRONTE</span></div>
+            <div class="card_back"><span>RETRO</span></div>
+        </div>`;
+        card_container.querySelector(".card_front").style.backgroundImage = `url(${imageFront})`;
+        card_container.querySelector(".card_back").style.backgroundImage = `url(${imageBack})`; 
+
         const imageX = document.createElement("div");
         imageX.innerHTML = "&#10005;"
         imageX.classList.add('image-x');
+        backgroundPopup.appendChild(imageX);
+
+        const imageFlip = document.createElement("div");
+        imageFlip.innerHTML = "&#10534;"
+        imageFlip.classList.add('image-flip');
+        backgroundPopup.appendChild(imageFlip);
         
-
-
         // -> Make unclickable the background
         
         const prevScrollY = window.scrollY;
@@ -59,10 +72,14 @@ class Utilities {
         document.body.style.overflowY = "hidden";
         document.querySelector(".container").style.overflowY = "hidden";
         document.querySelector("#menu-toggle").checked = false; 
-
+        
+        imageFlip.addEventListener("click", function() {
+            Utilities.FlipFrontBackCard(card_container);
+        })
+        
         imageX.addEventListener("click", function() {
             document.body.removeChild(backgroundPopup);
-
+            
             document.body.style.overflowY = prevBodyOverflowY;
             document.querySelector(".container").style.overflowY = prevContainerOverflowY;
             window.scrollTo({
@@ -71,12 +88,9 @@ class Utilities {
                 "behavior": "auto"
             });
         });
-
-
         
+        backgroundPopup.appendChild(card_container);
         document.body.appendChild(backgroundPopup);
-        backgroundPopup.appendChild(imagePopup);
-        backgroundPopup.appendChild(imageX);
     }
 
 
