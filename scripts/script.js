@@ -204,9 +204,10 @@ window.addEventListener("load", async function () {
 
         const nomeProdottoField = Utilities.GetFieldContainer("Nome prodotto", product['product-name']);
         
-        const prezzoProdottoField = Utilities.GetFieldContainer("Prezzo prodotto", product['product-price'] + " €");
+        // const prezzoProdottoField = Utilities.GetFieldContainer("Prezzo prodotto", product['product-price'] + " €");
 
-        productCard.append(productImageField, nomeProdottoField, prezzoProdottoField);
+        // productCard.append(productImageField, nomeProdottoField, prezzoProdottoField);
+        productCard.append(productImageField, nomeProdottoField);
 
         aContainer.appendChild(productCard);
         productsCarousel.appendChild(aContainer);
