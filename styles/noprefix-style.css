@@ -422,6 +422,8 @@ body {
     align-items: stretch;
     align-content: stretch;
     gap: 0.25em;
+
+    overflow: hidden;
 }
 
 .card-image {
@@ -547,25 +549,25 @@ body {
     position: fixed;
     top: 0;
     left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 101;
     width: 100%;
     height: 100%;
-    z-index: 101;
-
-    overflow: hidden;
 
     background: rgba(0, 0, 0, 0.25);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
 
     animation: spawn-opacity 0.3s linear;
 
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     align-content: center;
-    padding: 2em 1em;
+
+    padding: 1em;
 }
 
 @keyframes spawn-opacity {
@@ -588,33 +590,123 @@ body {
     }
 }
 
-.image-popup {
-    position: relative;
-    max-width: 100%;
-    max-height: 100%;
-
-    display: block;
-    background-color: var(--clr-3);
-    color: var(--clr-1);
-    z-index: 101;
-
-    animation: spawn-expand 0.2s linear;
-
-    overflow: hidden;
+.card,
+.card .card_front,
+.card .card_back {
+    aspect-ratio: 2 / 3;
 }
 
-.image-x {
+.product-image-card,
+.product-image-card .card_front,
+.product-image-card .card_back {
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    align-self: center;
+}
+
+
+
+.card {
+    position: relative;
+    animation: spawn-expand 0.2s linear;
+    z-index: 0;
+}
+
+
+@media (orientation: landscape) {
+    .card {
+      height: 80%;
+    }
+  }
+  
+  @media (orientation: portrait) {
+    .card {
+      width: 80%;
+    }
+  }
+
+.card_front,
+.card_back {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-size: cover;
+    
+    overflow: hidden;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+
+    padding: 1em;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+}
+
+.card_content span {
+    display: inline-block;
+    font-family: "Poppins";
+    white-space: nowrap;
+    text-overflow: ellipsis;   
+}
+
+.card-title {
+    font-size: .5em;
+}
+
+.card-subtitle {
+    font-size: .4em;
+}
+
+.card_back {
+    transform: rotateY(0.5turn);
+}
+
+.card_content {
+    transform-style: preserve-3d;
+    transition-duration: 0.5s;
+}
+
+.card[data-state="flipped"] .card_content, .product-image-card[data-state="flipped"] .card_content {
+    transform: rotateY(0.5turn);
+}
+
+
+.image-x, .image-flip {
     position: absolute;
     right: 1em;
-    top: 1em;
+    z-index: 1;
     padding: 0.5em;
+    
+    width: 2em;
+    height: 2em;
+
     line-height: 1em;
     background-color: #fff;
-
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
+
+    cursor: pointer;
+}
+
+.image-x {
+    
+    top: 1em;
+}
+
+.image-flip {
+    top: 4em;
 }
 
 @media (hover: hover) {
@@ -749,6 +841,9 @@ body {
     color: var(--clr-1);
 }
 
+.merchandise-container .carousel-card {
+    width: 6em;
+}
 
 /* ----- footer ----- */
 
