@@ -26,5 +26,12 @@
     "party-image-url": "../resources/events-images/seaway-09-08.jpeg",
     "party-location": "Chiringuito-Caicos/Nettuno - Bagno 28 Rimini (RN)",
     "party-url": null
+  },
+  {
+    "party-name": "11/08 GLOW PARTY",
+    "party-timestamp": 1660244400,
+    "party-image-url": "../resources/events-images/chiringuito-kokale-04-08.jpeg",
+    "party-location": "Chiringuito/Kokale - Bagno 63 Rimini (RN)",
+    "party-url": null
   }
 ]
