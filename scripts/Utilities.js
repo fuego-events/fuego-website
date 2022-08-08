@@ -41,6 +41,10 @@ class Utilities {
 
     static SummonImagePopup(imageName, imageFront, imageBack) {
         const backgroundPopup = Utilities.GetPopupBackground();
+        const blurredBg = document.createElement("div");
+        blurredBg.classList.add("blurred-background");
+        backgroundPopup.appendChild(blurredBg);
+
 
         const card_container = document.createElement("div");
         card_container.classList.add("card");
@@ -57,6 +61,7 @@ class Utilities {
         </div>`;
         card_container.querySelector(".card_front").style.backgroundImage = `url(${imageFront})`;
         card_container.querySelector(".card_back").style.backgroundImage = `url(${imageBack})`; 
+        backgroundPopup.appendChild(card_container);
 
         const imageX = document.createElement("div");
         imageX.innerHTML = "&#10005;"
@@ -95,7 +100,7 @@ class Utilities {
             });
         });
         
-        backgroundPopup.appendChild(card_container);
+        
         document.body.appendChild(backgroundPopup);
     }
 
