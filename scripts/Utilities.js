@@ -43,7 +43,6 @@ class Utilities {
         const images = await fetch(albumURL).then(x => x.json());
         let currentIndex = 0;
 
-
         const backgroundPopup = Utilities.GetPopupBackground();
         const blurredBg = document.createElement("div");
         blurredBg.classList.add("blurred-background");
@@ -77,12 +76,24 @@ class Utilities {
             if(currentIndex < 0) currentIndex = 0 
             if(currentIndex >= images.length) currentIndex = images.length;
 
-
             if(currentIndex - 1 < 0) prevButton.classList.add("disabled"); else prevButton.classList.remove("disabled"); 
             if(currentIndex + 1 >= images.length) nextButton.classList.add("disabled"); else nextButton.classList.remove("disabled");
             
-            photo.src = images[currentIndex]['download_url'];
-            imageDownload.href = images[currentIndex]['download_url'].replace("https://raw.githubusercontent.com/fuego-events/fuego-website/main", ".");
+            photo.src = "./resources/wallpapers/loading.gif";
+            imageDownload.classList.add("disabled");
+
+
+            let imageToLoad = new Image();
+            imageToLoad.onload = () => {
+                photo.src = images[currentIndex]['download_url'];
+                imageDownload.href = images[currentIndex]['download_url'].replace("https://raw.githubusercontent.com/fuego-events/fuego-website/main", ".");
+                imageDownload.classList.remove("disabled");
+            }
+            imageToLoad.src = images[currentIndex]['download_url'];
+
+            // photo.src = images[currentIndex]['download_url'];
+            // imageDownload.href = images[currentIndex]['download_url'].replace("https://raw.githubusercontent.com/fuego-events/fuego-website/main", ".");
+
         };
         
         prevButton.addEventListener("click", function() {

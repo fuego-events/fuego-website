@@ -223,10 +223,13 @@ window.addEventListener("load", async function () {
 
     // -> albums carousel
     const ALBUM_URL = "https://api.github.com/repos/fuego-events/fuego-website/contents/resources/events-album";
-    let directories = await fetch(ALBUM_URL).then(x => x.json());
+    let albums = await fetch(ALBUM_URL).then(x => x.json());
+    albums = albums.sort();
+    albums.reverse();
+    
     
     const albumCarousel = document.querySelector(".albums-container .carousel");
-    directories.forEach(gitFile => {
+    albums.forEach(gitFile => {
         let fileName = gitFile["name"];
 
         const aContainer = document.createElement("a");
