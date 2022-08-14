@@ -40,5 +40,12 @@
     "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/4e3eefdc-42fb-4413-b18b-8001ea9ab7a5.jpeg",
     "party-location": "Peter Pan Club / Misano Adriatico",
     "party-url": "https://www.ticketsms.it/event/TsLI1wsU"
+  },
+  {
+    "party-name": "18/08 GLOW PARTY",
+    "party-timestamp": 1660825172,
+    "party-image-url": "../resources/events-thumbnails/file:///C:/Users/ripuc/Pictures/18%20AGOSTO%20(1)%20f.jpg",
+    "party-location": "Chiringuito/Kokale - Bagno 63 Rimini (RN)",
+    "party-url": null
   }
 ]
