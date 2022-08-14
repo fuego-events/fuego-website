@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 @import url("../resources/fuego-font/fuego-font.css");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
 
 *,
 *::after,
@@ -98,24 +99,44 @@ body {
 }
 
 .nav-container {
-    display: flex;
-    flex-direction: row;
     list-style-type: none;
+    overflow: hidden;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    margin-top: 3.5em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-container>li {
-    margin: 0 1em;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0.5em 0;
+    width: 100%;
+    color: var(--clr-3);
+    background-color: var(--clr-1);
+
 }
 
 .menu-button-container {
-    display: none;
+    /* display: none; */
+    display: flex;
+    height: 1em;
 
-    height: 100%;
     width: 30px;
 
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 #menu-toggle {
@@ -159,53 +180,19 @@ body {
     transform: rotate(-405deg);
 }
 
-@media (max-width: 700px) {
-    .nav-container>li {
-        margin: 0 1em;
-        overflow: hidden;
-    }
 
-    .menu-button-container {
-        display: flex;
-        height: 1em;
-    }
+#menu-toggle~.nav-container li {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    transition: height 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+}
 
-    .nav-container {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-
-        margin-top: 3.5em;
-
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #menu-toggle~.nav-container li {
-        height: 0;
-        margin: 0;
-        padding: 0;
-        border: 0;
-        transition: height 0.5s cubic-bezier(0.23, 1, 0.32, 1);
-    }
-
-    #menu-toggle:checked~.nav-container li {
-        height: 2.75em;
-        padding: 0.5em;
-        transition: height 0.5ms cubic-bezier(0.23, 1, 0.32, 1);
-    }
-
-    .nav-container>li {
-        display: flex;
-        justify-content: center;
-        margin: 0;
-        padding: 0.5em 0;
-        width: 100%;
-        color: var(--clr-3);
-        background-color: var(--clr-1);
-    }
+#menu-toggle:checked~.nav-container li {
+    height: 2.75em;
+    padding: 0.5em;
+    transition: height 0.5ms cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 /* ----- navigate to ----- */
@@ -497,8 +484,8 @@ body {
 }
 
 .contacts-container {
-    color: var(--clr-3);
-    background-color: var(--clr-1);
+    color: var(--clr-1);
+    background-color: var(--clr-3);
 }
 
 .contacts-container hr {
@@ -555,7 +542,7 @@ body {
     width: 100%;
     height: 100%;
 
-    
+
 
     animation: spawn-opacity 0.3s linear;
 
@@ -624,7 +611,6 @@ body {
 }
 
 
-
 .card {
     position: relative;
     animation: spawn-expand 0.2s linear;
@@ -634,15 +620,15 @@ body {
 
 @media (orientation: landscape) {
     .card {
-      height: 80%;
+        height: 80%;
     }
-  }
-  
-  @media (orientation: portrait) {
+}
+
+@media (orientation: portrait) {
     .card {
-      width: 80%;
+        width: 80%;
     }
-  }
+}
 
 .card_front,
 .card_back {
@@ -652,7 +638,7 @@ body {
     left: 0;
     right: 0;
     background-size: cover;
-    
+
     backface-visibility: hidden;
     transform-style: preserve-3d;
 
@@ -668,7 +654,7 @@ body {
     display: inline-block;
     font-family: "Poppins";
     white-space: nowrap;
-    text-overflow: ellipsis;   
+    text-overflow: ellipsis;
 }
 
 .card-title {
@@ -688,37 +674,58 @@ body {
     transition-duration: 0.5s;
 }
 
-.card[data-state="flipped"] .card_content, .product-image-card[data-state="flipped"] .card_content {
+.card[data-state="flipped"] .card_content,
+.product-image-card[data-state="flipped"] .card_content {
     transform: rotateY(0.5turn);
 }
 
-
-.image-x, .image-flip {
+.image-control {
     position: absolute;
-    right: 1em;
+    
     z-index: 1;
     padding: 0.5em;
-    
+
     width: 2em;
     height: 2em;
 
     line-height: 1em;
     background-color: #fff;
+    color: var(--clr-1);
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
+    outline: none;
 
     cursor: pointer;
+    transition: background-color 500ms;
 }
 
-.image-x {
-    
+.disabled {
+    background-color: var(--clr-4);
+    cursor: not-allowed;
+    pointer-events: none;
+
+}
+
+.control-1 {
     top: 1em;
+    right: 1em;
 }
 
-.image-flip {
+.control-2 {
     top: 4em;
+    right: 1em;
+}
+
+.control-3 {
+    bottom: 1em;
+    left: 1em;
+}
+
+.control-4 {
+    bottom: 1em;
+    right: 1em;
 }
 
 @media (hover: hover) {
@@ -857,12 +864,67 @@ body {
     width: 6em;
 }
 
+
+/* ----- albums ----- */
+
+.albums-container {
+    color: var(--clr-3);
+    background-color: var(--clr-1);
+}
+
+.albums-container .carousel-card {
+    width: 6em;
+}
+
+.albums-container .carousel-card .carousel-button {
+    justify-self: center;
+    
+    font-weight: 900;
+    font-size: 0.4em;
+    padding: .2em;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    gap: 0.1em;
+
+    border: 2px solid var(--clr-2);
+    border-radius: 10px;   
+
+    transition: background-color 500ms;
+
+    overflow: hidden;
+}
+
+@media (max-width: 700px) {
+    .carousel-button .description {
+        display: none;
+    }
+}
+
+@media (hover: hover) {
+    .carousel-card:hover .carousel-button {
+        background-color: var(--clr-2);
+    }   
+}
+
+.album-photo {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: contain;
+    z-index: 1;
+}
+
+
 /* ----- footer ----- */
 
 .footer-container {
-    background-color: var(--clr-1);
-    color: var(--clr-3);
+    background-color: var(--clr-3);
+    color: var(--clr-1);
     font-size: .3em;
+    font-weight: 900;
     padding: 1em;
 
     display: flex;

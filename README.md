@@ -60,16 +60,16 @@ Ogni oggetto rappresenta un singolo evento.
 Ogni evento deve contenere i seguenti campi:
 - "party-name": "testo", ovvero il nome dell'evento
 - "party-timestamp": 1658437200, ovvero la data dell'inizio dell'evento
-- "party-image-url": "../resources/events-images/event-02.jpeg", ovvero il percorso dell'immagine dell'evento
+- "party-image-url": "../resources/events-thumbnails/event-02.jpeg", ovvero il percorso dell'immagine dell'evento
 - "party-location": "Chiringuito Kokale - Bagno 63 Rimini (RN)", ovvero l'indirizzo dell'evento
 - "party-url": null, ovvero il link per ottenere ulteriori informazioni sull'evento o per comprare i biglietti.   
 
 Inserire la scritta _null_ (senza doppi apici) per indicare la *mancanza* di un link.  
 Le immagini possono essere sia l'indirizzo di un'immagine che si trova online, sia l'indirizzo di un'immagine caricata.
-Per caricare un'immagine, inserire il file dentro la cartella _Resources_ -> _events-images_
-Per inserirla nel campo _party-image-url_ anteporre al nome del file il seguente testo "../resources/events-images/"  
+Per caricare un'immagine, inserire il file dentro la cartella _Resources_ -> _events-thumbnails_
+Per inserirla nel campo _party-image-url_ anteporre al nome del file il seguente testo "../resources/events-thumbnails/"  
 ```
-es. "party-image-url": "../resources/events-images/immagine1.jpg"
+es. "party-image-url": "../resources/events-thumbnails/immagine1.jpg"
 ```
 
 Una volta terminate le modifiche scorrere in fondo alla pagina, inserire come testo sotto alla scritta _commit changes_ il seguente testo: Modifica eventi 3/7/2022 (La data sarà quella del giorno di modifica).  

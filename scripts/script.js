@@ -185,7 +185,7 @@ window.addEventListener("load", async function () {
     // -> Shop carousel
     const products = await fetch("../resources/configs/merchandise-config.json").then((file) => file.json() );
     const productsCarousel = document.querySelector(".merchandise-container .carousel");
-    const FLIP_DELAY = 2.5 * 1000;
+    const FLIP_DELAY = 2.5 * 1000;-
     products.forEach(product => {
         const aContainer = document.createElement("a");
         
@@ -205,14 +205,14 @@ window.addEventListener("load", async function () {
         const nomeProdottoField = Utilities.GetFieldContainer("Nome prodotto", product['product-name']);
         
         // const prezzoProdottoField = Utilities.GetFieldContainer("Prezzo prodotto", product['product-price'] + " €");
-
         // productCard.append(productImageField, nomeProdottoField, prezzoProdottoField);
+
         productCard.append(productImageField, nomeProdottoField);
 
         aContainer.appendChild(productCard);
         productsCarousel.appendChild(aContainer);
 
-        productCard.addEventListener("click", () => Utilities.SummonImagePopup(product['product-name'], product['product-front-image-url'], product['product-back-image-url']));
+        productCard.addEventListener("click", () => Utilities.SummonProductImagePopup(product['product-name'], product['product-front-image-url'], product['product-back-image-url']));
 
         window.setInterval(function() {
             Utilities.FlipFrontBackCard(productImageField)
@@ -220,6 +220,43 @@ window.addEventListener("load", async function () {
 
     });
 
+
+    // -> albums carousel
+    const ALBUM_URL = "https://api.github.com/repos/fuego-events/fuego-website/contents/resources/events-album";
+    let directories = await fetch(ALBUM_URL).then(x => x.json());
+    
+    const albumCarousel = document.querySelector(".albums-container .carousel");
+    directories.forEach(gitFile => {
+        let fileName = gitFile["name"];
+
+        const aContainer = document.createElement("a");
+
+        const card = document.createElement("div");
+        card.classList.add("carousel-card");
+
+        let nomeEvento = fileName.substring(6, fileName.length - 11);
+        const nomeEventoField = Utilities.GetFieldContainer("Nome evento", nomeEvento);
+        
+        let dataEvento = fileName.substring(fileName.length - 11)
+        const dataEventoField = Utilities.GetFieldContainer("Data evento", dataEvento);
+
+        const showAlbum = document.createElement("span");
+        showAlbum.classList.add("carousel-button");
+
+        showAlbum.innerHTML = `
+        <span class="material-symbols-outlined">photo_library</span>
+        <span class="description">MOSTRA FOTO</span>
+        `;
+
+        card.append(nomeEventoField, dataEventoField, showAlbum);
+        
+        card.addEventListener("click", () => Utilities.SummonAlbumImagePopup(gitFile["_links"]["self"]));
+
+
+        aContainer.appendChild(card);
+        albumCarousel.appendChild(aContainer);
+
+    })
 
 });
 
