@@ -59,6 +59,7 @@ Il nome di ogni cartella è composto da tre parti:
 - numero di serie (001 -)
 - nome dell'evento (Chiringuito Kokale)
 - data dell'evento nel formato dd-mm-yyyy (14-07-2022)
+
 Ciò è essenziale per il corretto funzionamento del sito. 
 Infatti i primi tre numeri e il trattino saranno estratti dal nome per decidere la posizione. Maggiore sarà il numero, prima l'album sarà posizionato.
 Bisogna notare che è essenziale mettere i tre numeri (anche con gli zeri) ed il trattino.
