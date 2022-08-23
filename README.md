@@ -52,6 +52,18 @@ Ogni lista è delimitata dalle parentesi quadrate _[]_.
 ```
 Ogni valore è separato da una virgola (_,_) dal campo successivo (a meno che non sia l'ultimo).
 
+## - Aggiungere un album -
+Per aggiungere un album la procedura è un po' più complicata...
+Innanzitutto bisogna spostarsi nella cartella _resources_, poi nella cartella _events-album_ e aggiungere una cartella il cui nome è significativo.
+Il nome di ogni cartella è composto da tre parti:
+- numero di serie (001 -)
+- nome dell'evento (Chiringuito Kokale)
+- data dell'evento nel formato dd-mm-yyyy (14-07-2022)
+Ciò è essenziale per il corretto funzionamento del sito. 
+Infatti i primi tre numeri e il trattino saranno estratti dal nome per decidere la posizione. Maggiore sarà il numero, prima l'album sarà posizionato.
+Bisogna notare che è essenziale mettere i tre numeri (anche con gli zeri) ed il trattino.
+Stesso discorso vale anche per le date, che devono essere inserite alla fine del nome e devono occupare quel preciso spazio (occupando 2 caratteri per il giorno, 2 caratteri per il mese e 4 caratteri per l'anno).
+
 ## - Aggiungere un evento -
 Per aggiungere un qualsiasi evento è necessario recarsi nella cartella _resources_, poi nella cartella _configs_ e, infine, il file _events-config.json_.  
 Una volta visualizzato cliccare sulla matita per modificare il documento.  
