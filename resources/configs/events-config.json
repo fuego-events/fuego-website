@@ -1,33 +1,5 @@
 [
   {
-    "party-name": "06/08 BELLO FIGO e GAIA BIANCHI - PETER PAN",
-    "party-timestamp": 1659816000,
-    "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/01a756e8-4d6c-4477-b342-a76d82b090cd.jpeg",
-    "party-location": "Peter Pan Club / Misano Adriatico",
-    "party-url": "https://www.ticketsms.it/event/ukIaTHTA"
-  },
-  {
-    "party-name": "16/08 FUEGO-SUERTE SEAWAY",
-    "party-timestamp": 1660687200,
-    "party-image-url": "../resources/events-thumbnails/seaway-16-08.jpeg",
-    "party-location": "Chiringuito-Caicos/Nettuno - Bagno 28 Rimini (RN)",
-    "party-url": null
-  },
-  {
-    "party-name": "04/08 GLOW PARTY",
-    "party-timestamp": 1659646800,
-    "party-image-url": "../resources/events-thumbnails/chiringuito-kokale-04-08.jpeg",
-    "party-location": "Chiringuito/Kokale - Bagno 63 Rimini (RN)",
-    "party-url": null
-  },
-  {
-    "party-name": "09/08 FUEGO-SUERTE SEAWAY",
-    "party-timestamp": 1660071600,
-    "party-image-url": "../resources/events-thumbnails/seaway-09-08.jpeg",
-    "party-location": "Chiringuito-Caicos/Nettuno - Bagno 28 Rimini (RN)",
-    "party-url": null
-  },
-  {
     "party-name": "11/08 GLOW PARTY",
     "party-timestamp": 1660244400,
     "party-image-url": "../resources/events-thumbnails/chiringuito-kokale-04-08.jpeg",
@@ -86,6 +58,20 @@
   {
     "party-name": "25/08 GLOW PARTY",
     "party-timestamp": 1661464800,
+    "party-image-url": "../resources/events-thumbnails/18-AGOSTO-f.jpg",
+    "party-location": "Chiringuito/Kokale - Bagno 63 Rimini (RN)",
+    "party-url": null
+  },
+  {
+    "party-name": "30/08GO-SUERTE SEAWAY",
+    "party-timestamp": 1661893200,
+    "party-image-url": "../resources/events-thumbnails/seaway-09-08.jpeg",
+    "party-location": "Chiringuito-Caicos/Nettuno - Bagno 28 Rimini (RN)",
+    "party-url": null
+  },
+  {
+    "party-name": "01/09 GLOW PARTY",
+    "party-timestamp": 1662066000,
     "party-image-url": "../resources/events-thumbnails/18-AGOSTO-f.jpg",
     "party-location": "Chiringuito/Kokale - Bagno 63 Rimini (RN)",
     "party-url": null
