@@ -72,21 +72,14 @@
   {
     "party-name": "01/09 GLOW PARTY",
     "party-timestamp": 1662066000,
-    "party-image-url": "../resources/events-thumbnails/01 SETTEMBRE.jpeg",
+    "party-image-url": "../resources/events-thumbnails/01-SETTEMBRE.jpeg",
     "party-location": "Chiringuito/Kokale - Bagno 63 Rimini (RN)",
-    "party-url": null
-  },
-  {
-    "party-name": "06/09 FUEGO-SUERTE SEAWAY",
-    "party-timestamp": 1662498000,
-    "party-image-url": "../resources/events-thumbnails/seaway-09-08.jpeg",
-    "party-location": "Chiringuito-Caicos/Nettuno - Bagno 28 Rimini (RN)",
     "party-url": null
   },
   {
     "party-name": "08/09 CLOSING/GLOW PARTY",
     "party-timestamp": 1662670800,
-    "party-image-url": "../resources/events-thumbnails/01 SETTEMBRE.jpeg",
+    "party-image-url": "../resources/events-thumbnails/01-SETTEMBRE.jpeg",
     "party-location": "Chiringuito/Tourquoise - Plage Tourquoise (RN)",
     "party-url": null
   }
