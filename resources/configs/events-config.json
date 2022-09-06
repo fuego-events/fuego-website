@@ -82,5 +82,12 @@
     "party-image-url": "../resources/events-thumbnails/FUEGO-TOUQUOISE.jpeg",
     "party-location": "Chiringuito/Tourquoise - Plage Tourquoise (RN)",
     "party-url": null
-  }
+  },
+  {
+    "party-name": "10/09 CLOSING/FUEGO-SUERTE SEAWAY",
+    "party-timestamp": 1662843600,
+    "party-image-url": "../resources/events-thumbnails/seaway-09-08.jpeg",
+    "party-location": "Chiringuito-Caicos/Nettuno - Bagno 28 Rimini (RN)",
+    "party-url": null
+  },
 ]
