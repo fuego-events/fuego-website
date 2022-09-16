@@ -1,19 +1,5 @@
 [
   {
-    "party-name": "11/08 GLOW PARTY",
-    "party-timestamp": 1660244400,
-    "party-image-url": "../resources/events-thumbnails/chiringuito-kokale-04-08.jpeg",
-    "party-location": "Chiringuito/Kokale - Bagno 63 Rimini (RN)",
-    "party-url": null
-  },
-  {
-    "party-name": "09/08 MAMBOLOSCO - PETER PAN",
-    "party-timestamp": 1660086000,
-    "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/4e3eefdc-42fb-4413-b18b-8001ea9ab7a5.jpeg",
-    "party-location": "Peter Pan Club / Misano Adriatico",
-    "party-url": "https://www.ticketsms.it/event/TsLI1wsU"
-  },
-  {
     "party-name": "18/08 GLOW PARTY",
     "party-timestamp": 1660856400,
     "party-image-url": "../resources/events-thumbnails/18-AGOSTO-f.jpg",
@@ -88,6 +74,13 @@
     "party-timestamp": 1662843600,
     "party-image-url": "../resources/events-thumbnails/seaway-09-08.jpeg",
     "party-location": "Chiringuito-Caicos/Nettuno - Bagno 28 Rimini (RN)",
+    "party-url": null
+  },
+  {
+    "party-name": "?",
+    "party-timestamp": 1664661600,
+    "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/7480c19f-b2e3-49ef-89c9-3b30e3ad0168.jpeg",
+    "party-location": "?",
     "party-url": null
   }
 ]
