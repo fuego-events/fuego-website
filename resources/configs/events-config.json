@@ -96,5 +96,12 @@
     "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/78d63ea4-09ab-497e-bc25-684ae66726da.jpeg",
     "party-location": "Altromondo Studios ! / Rimini",
     "party-url": "https://www.ticketsms.it/event/Y1oLS3iX"
+  },
+  {
+    "party-name": "07/12 REPEAT PARTY - PETER PAN",
+    "party-timestamp":1670450400 ,
+    "party-image-url": "../resources/events-thumbnails/07 12 repeat party",
+    "party-location": "Peter Pan Club / Misano Adriatico",
+    "party-url": null
   }
 ]
