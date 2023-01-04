@@ -99,9 +99,16 @@
   },
   {
     "party-name": "07/12 REPEAT PARTY - PETER PAN",
-    "party-timestamp":1670450400 ,
+    "party-timestamp": 1670450400 ,
     "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/2d44bacc-a68e-460f-bf6c-afbd5376d36f.jpeg",
     "party-location": "Peter Pan Club / Misano Adriatico",
     "party-url": "https://www.ticketsms.it/event/Y4hDlSEo"
+  },
+  {
+    "party-name": "MAÑANA - COCORICO",
+    "party-timestamp": 1672959600 ,
+    "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/0cb1b252-45c2-48da-8a0f-770ccbbc601d.jpeg",
+    "party-location": "Cocoricò / Riccione",
+    "party-url": "https://www.ticketsms.it/event/EqPvVYvt"
   }
 ]
