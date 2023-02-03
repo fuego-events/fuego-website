@@ -1,4 +1,10 @@
-[
+[  
+  {
+    "product-front-image-url": "../resources/products-images/FELPA FUEGO FRONTE x SITO.png",
+    "product-back-image-url": "../resources/products-images/FELPA FUEGO X SITO.png",
+    "product-name": "Felpa FUΞGO smoke-lady",
+    "product-price": 35
+  },
   {
     "product-front-image-url": "../resources/products-images/tshirt-front-flame.png",
     "product-back-image-url": "../resources/products-images/tshirt-back-blank.png",
