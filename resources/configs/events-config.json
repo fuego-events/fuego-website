@@ -42,13 +42,6 @@
     "party-url": null
   },
   {
-    "party-name": "25/08 GLOW PARTY",
-    "party-timestamp": 1661464800,
-    "party-image-url": "../resources/events-thumbnails/18-AGOSTO-f.jpg",
-    "party-location": "Chiringuito/Kokale - Bagno 63 Rimini (RN)",
-    "party-url": null
-  },
-  {
     "party-name": "30/08GO-SUERTE SEAWAY",
     "party-timestamp": 1661893200,
     "party-image-url": "../resources/events-thumbnails/seaway-09-08.jpeg",
@@ -117,5 +110,12 @@
     "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/beb49cb8-3de4-4345-9b76-2671e172d846.png",
     "party-location": "Altromondo Studios / Rimini",
     "party-url": "https://www.ticketsms.it/event/eBcuBaob" 
+  },
+  {
+    "party-name": "INSANITY - GABRY PONTE",
+    "party-timestamp": 1680735600,
+    "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/74563d0d-24fa-4026-9181-aaaa809fa536.jpeg",
+    "party-location": "Cocoricò / Riccione",
+    "party-url": "https://www.ticketsms.it/event/mkmDFZXu"
   }
 ]
