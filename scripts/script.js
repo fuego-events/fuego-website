@@ -123,7 +123,11 @@ window.addEventListener("load", async function () {
 
     // ----- EVENTS CAROUSEL -----
 
-    const events = await fetch("../resources/configs/events-config.json").then((file) => file.json() );
+    const automatic_events = await fetch("../resources/configs/events-config.json").then((file) => file.json() );
+    const manual_events = await fetch("../resources/configs/manual-events-config.json").then((file) => file.json() );
+
+    const events = automatic_events.concat(manual_events)
+
     events.sort((a, b) => b['party-timestamp'] - a['party-timestamp']);
 
     const DURATA_EVENTO = 5 * 3600 * 1000;
@@ -262,5 +266,3 @@ window.addEventListener("load", async function () {
     })
 
 });
-
-
