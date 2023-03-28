@@ -1,128 +1,100 @@
 [
     {
-        "party-name": "18/08 GLOW PARTY",
-        "party-timestamp": 1660856400,
-        "party-image-url": "../resources/events-thumbnails/18-AGOSTO-f.jpg",
-        "party-location": "Chiringuito/Kokale - Bagno 63 Rimini (RN)",
-        "party-url": null
+        "party-name": "ABBONAMENTI EASTER EXPERIENCE",
+        "party-timestamp": 1680989400,
+        "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/ad9f5492-35c4-4e57-8229-fa9fb6e4d302.jpg",
+        "party-location": "https://d2fa23zcjd5klo.cloudfront.net/logo/venue/0c529256-a0cb-4ea4-9864-4cd22126831c.jpg",
+        "party-url": "https://www.ticketsms.it/it/event/Abbonamen-cocorico-riccione-easter-experience-2023"
     },
     {
-        "party-name": "17/08 RHOVE - ALTROMONDO STUDIOS",
-        "party-timestamp": 1660773600,
-        "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/e4907e61-1cc3-4080-8947-d992ee931b10.jpeg",
-        "party-location": "Altromondo Studios / Rimini",
-        "party-url": "https://www.ticketsms.it/event/XgVz53jC"
+        "party-name": "EASTER EXPERIENCE MUTONIA DAY ONE",
+        "party-timestamp": 1680989400,
+        "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/bdc2d685-d4f8-4e95-afb3-c3e3769ceff5.jpg",
+        "party-location": "https://d2fa23zcjd5klo.cloudfront.net/logo/venue/0c529256-a0cb-4ea4-9864-4cd22126831c.jpg",
+        "party-url": "https://www.ticketsms.it/it/event/cocorico-riccione-easter-experience-8-aprile-2023"
     },
     {
-        "party-name": "21/08 PAKY - ALTROMONDO STUDIOS",
-        "party-timestamp": 1661122800,
-        "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/877eb426-4dde-4760-ba7a-70cb03bf30a3.jpeg",
-        "party-location": "Altromondo Studios ! / Rimini",
-        "party-url": "https://www.ticketsms.it/event/GRie2Unp"
+        "party-name": "EASTER EXPERIENCE MUTONIA DAY TWO",
+        "party-timestamp": 1681075800,
+        "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/7a19983a-cd62-4760-9741-7b5d1487e26a.jpg",
+        "party-location": "https://d2fa23zcjd5klo.cloudfront.net/logo/venue/0c529256-a0cb-4ea4-9864-4cd22126831c.jpg",
+        "party-url": "https://www.ticketsms.it/it/event/cocorico-riccione-easter-experience-9-aprile-2023"
     },
     {
-        "party-name": "20/08 TAXI BI - PETER PAN",
-        "party-timestamp": 1661032800,
-        "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/65f99a51-4016-4e76-81c1-a17ee88e445f.jpg",
-        "party-location": "Peter Pan Club / Misano Adriatico",
-        "party-url": "https://www.ticketsms.it/promoter/riccardo.pasquarella"
-    },
-    {
-        "party-name": "23/08 BORO BORO - PETER PAN",
-        "party-timestamp": 1661292000,
-        "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/7480c19f-b2e3-49ef-89c9-3b30e3ad0168.jpeg",
-        "party-location": "Peter Pan Club / Misano Adriatico",
-        "party-url": "https://www.ticketsms.it/promoter/riccardo.pasquarella"
-    },
-    {
-        "party-name": "23/08 FUEGO-SUERTE SEAWAY",
-        "party-timestamp": 1661292000,
-        "party-image-url": "../resources/events-thumbnails/seaway-09-08.jpeg",
-        "party-location": "Chiringuito-Caicos/Nettuno - Bagno 28 Rimini (RN)",
-        "party-url": null
-    },
-    {
-        "party-name": "30/08GO-SUERTE SEAWAY",
-        "party-timestamp": 1661893200,
-        "party-image-url": "../resources/events-thumbnails/seaway-09-08.jpeg",
-        "party-location": "Chiringuito-Caicos/Nettuno - Bagno 28 Rimini (RN)",
-        "party-url": null
-    },
-    {
-        "party-name": "01/09 GLOW PARTY",
-        "party-timestamp": 1662066000,
-        "party-image-url": "../resources/events-thumbnails/01-SETTEMBRE.jpeg",
-        "party-location": "Chiringuito/Kokale - Bagno 63 Rimini (RN)",
-        "party-url": null
-    },
-    {
-        "party-name": "08/09 CLOSING/GLOW PARTY",
-        "party-timestamp": 1662670800,
-        "party-image-url": "../resources/events-thumbnails/FUEGO-TOUQUOISE.jpeg",
-        "party-location": "Chiringuito/Tourquoise - Plage Tourquoise (RN)",
-        "party-url": null
-    },
-    {
-        "party-name": "10/09 CLOSING/FUEGO-SUERTE SEAWAY",
-        "party-timestamp": 1662843600,
-        "party-image-url": "../resources/events-thumbnails/seaway-09-08.jpeg",
-        "party-location": "Chiringuito-Caicos/Nettuno - Bagno 28 Rimini (RN)",
-        "party-url": null
-    },
-    {
-        "party-name": "31/10 MAGILLA - HALLOWEEN PARTY - ALTROMONDO STUDIOS",
-        "party-timestamp": 1667253600,
-        "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/b903ac54-2bf7-480f-b451-133129181ae5.jpeg",
-        "party-location": "Altromondo Studios ! / Rimini",
-        "party-url": "https://www.ticketsms.it/event/5Qx1aHfy"
-    },
-    {
-        "party-name": "26/11 MAGILLA - ALTROMONDO STUDIOS",
-        "party-timestamp": 1669500000,
-        "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/78d63ea4-09ab-497e-bc25-684ae66726da.jpeg",
-        "party-location": "Altromondo Studios ! / Rimini",
-        "party-url": "https://www.ticketsms.it/event/Y1oLS3iX"
-    },
-    {
-        "party-name": "07/12 REPEAT PARTY - PETER PAN",
-        "party-timestamp": 1670450400,
-        "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/2d44bacc-a68e-460f-bf6c-afbd5376d36f.jpeg",
-        "party-location": "Peter Pan Club / Misano Adriatico",
-        "party-url": "https://www.ticketsms.it/event/Y4hDlSEo"
-    },
-    {
-        "party-name": "MA\u00d1ANA - COCORICO",
-        "party-timestamp": 1672959600,
-        "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/0cb1b252-45c2-48da-8a0f-770ccbbc601d.jpeg",
-        "party-location": "Cocoric\u00f2 / Riccione",
-        "party-url": "https://www.ticketsms.it/event/EqPvVYvt"
-    },
-    {
-        "party-name": "CARNEVALE - ALTROMONDO STUDIOS",
-        "party-timestamp": 1676757600,
-        "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/d1f16389-248b-4276-b81b-aa7d7798475e.jpeg",
-        "party-location": "Altromondo Studios / Rimini",
-        "party-url": "https://www.ticketsms.it/event/mGSIgWHI"
-    },
-    {
-        "party-name": "RANDOM - ALTROMONDO STUDIOS",
-        "party-timestamp": 1679176800,
-        "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/beb49cb8-3de4-4345-9b76-2671e172d846.png",
-        "party-location": "Altromondo Studios / Rimini",
-        "party-url": "https://www.ticketsms.it/event/eBcuBaob"
+        "party-name": "EASTER EXPERIENCE DAY THREE",
+        "party-timestamp": 1681138800,
+        "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/af28baa1-cada-407b-b048-c78b494dede8.jpeg",
+        "party-location": "https://d2fa23zcjd5klo.cloudfront.net/logo/venue/0c529256-a0cb-4ea4-9864-4cd22126831c.jpg",
+        "party-url": "https://www.ticketsms.it/it/event/cocorico-riccione-easter-experience-10-aprile-2023"
     },
     {
         "party-name": "INSANITY - GABRY PONTE",
-        "party-timestamp": 1680735600,
+        "party-timestamp": 1680728400,
         "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/74563d0d-24fa-4026-9181-aaaa809fa536.jpeg",
-        "party-location": "Cocoric\u00f2 / Riccione",
-        "party-url": "https://www.ticketsms.it/event/mkmDFZXu"
+        "party-location": "https://d2fa23zcjd5klo.cloudfront.net/logo/venue/0c529256-a0cb-4ea4-9864-4cd22126831c.jpg",
+        "party-url": "https://www.ticketsms.it/it/event/INSANITY-GABRYPONTE"
     },
     {
-        "party-name": "PROVA!!",
-        "party-timestamp": 1680991200,
-        "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/5f164631-31e3-4d28-bb10-496e869cca5f.jpg",
-        "party-location": "Altromondo Studios / Rimini",
-        "party-url": "https://www.ticketsms.it/event/edhday8w"
+        "party-name": "GALACTICA",
+        "party-timestamp": 1682199000,
+        "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/cb9f8615-2e5c-405b-8de7-09c54ff8e8c3.jpg",
+        "party-location": "https://d2fa23zcjd5klo.cloudfront.net/logo/venue/0c529256-a0cb-4ea4-9864-4cd22126831c.jpg",
+        "party-url": "https://www.ticketsms.it/it/event/Galactica-Cocorico-Sabato-22-Aprile-2023"
+    },
+    {
+        "party-name": "VIDALOCA - EASTER PARTY - RICCIONE",
+        "party-timestamp": 1680984000,
+        "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/aadc2356-1081-4993-b7e0-5eb214717cf3.jpeg",
+        "party-location": "https://d2fa23zcjd5klo.cloudfront.net/logo/venue/88a5a10d-5257-4eb6-86c8-d394132abadc.jpg",
+        "party-url": "https://www.ticketsms.it/it/event/SxlMqQX8"
+    },
+    {
+        "party-name": "CLOROPHILLA - PETER PAN",
+        "party-timestamp": 1681070400,
+        "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/9cd5db9a-1aad-4fb7-9268-cd3afd2f30e7.jpeg",
+        "party-location": "https://d2fa23zcjd5klo.cloudfront.net/logo/venue/88a5a10d-5257-4eb6-86c8-d394132abadc.jpg",
+        "party-url": "https://www.ticketsms.it/it/event/CLOROPHILLA-PETERPAN"
+    },
+    {
+        "party-name": "VIDALOCA - RICCIONE",
+        "party-timestamp": 1680379200,
+        "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/7af6b7b6-f3b3-4307-ab3e-8edc5b811468.jpg",
+        "party-location": "https://d2fa23zcjd5klo.cloudfront.net/logo/venue/88a5a10d-5257-4eb6-86c8-d394132abadc.jpg",
+        "party-url": "https://www.ticketsms.it/it/event/VIDALOCA-RICCIONE-Sabato01Aprile"
+    },
+    {
+        "party-name": "VIDALOCA - RICCIONE",
+        "party-timestamp": 1681588800,
+        "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/ff2ff312-6ee8-4569-adcf-693a3c72eb50.jpg",
+        "party-location": "https://d2fa23zcjd5klo.cloudfront.net/logo/venue/88a5a10d-5257-4eb6-86c8-d394132abadc.jpg",
+        "party-url": "https://www.ticketsms.it/it/event/tTKoNpuz"
+    },
+    {
+        "party-name": "SOLARIS",
+        "party-timestamp": 1680292800,
+        "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/c2cba32d-a5f1-47f5-816a-0ede4adc32b7.jpg",
+        "party-location": "https://d2fa23zcjd5klo.cloudfront.net/logo/venue/88a5a10d-5257-4eb6-86c8-d394132abadc.jpg",
+        "party-url": "https://www.ticketsms.it/it/event/SOLARIS-PETERPAN"
+    },
+    {
+        "party-name": "MAMACITA FESTIVAL DAY ONE ",
+        "party-timestamp": 1689955200,
+        "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/b791f0c0-3155-4027-b54c-54c06b095bf8.jpeg",
+        "party-location": "https://d2fa23zcjd5klo.cloudfront.net/logo/venue/9181ffb8-ca0a-4a3b-86df-cf91dd9b2f17.jpeg",
+        "party-url": "https://www.ticketsms.it/it/event/mamacita-festival-rimini-lazza-21-luglio-2023"
+    },
+    {
+        "party-name": "MAMACITA FESTIVAL DAY TWO",
+        "party-timestamp": 1690041600,
+        "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/f9875851-756f-4514-945b-b74c365413e3.jpeg",
+        "party-location": "https://d2fa23zcjd5klo.cloudfront.net/logo/venue/9181ffb8-ca0a-4a3b-86df-cf91dd9b2f17.jpeg",
+        "party-url": "https://www.ticketsms.it/it/event/Gue-mamacita-festival-rimini-22-luglio-2023"
+    },
+    {
+        "party-name": "ABBONAMENTI MAMACITA FESTIVAL",
+        "party-timestamp": 1689955200,
+        "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/ad08d0c3-e2b2-4441-a522-76eefb948eac.jpeg",
+        "party-location": "https://d2fa23zcjd5klo.cloudfront.net/logo/venue/9181ffb8-ca0a-4a3b-86df-cf91dd9b2f17.jpeg",
+        "party-url": "https://www.ticketsms.it/it/event/mamacita-festival-rimini-abbonamenti-21-22-luglio"
     }
 ]
