@@ -1,33 +1,5 @@
 [
     {
-        "party-name": "ABBONAMENTI EASTER EXPERIENCE",
-        "party-timestamp": 1680989400,
-        "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/ad9f5492-35c4-4e57-8229-fa9fb6e4d302.jpg",
-        "party-location": "Cocoric\u00f2",
-        "party-url": "https://www.ticketsms.it/it/event/Abbonamen-cocorico-riccione-easter-experience-2023"
-    },
-    {
-        "party-name": "EASTER EXPERIENCE MUTONIA DAY ONE",
-        "party-timestamp": 1680989400,
-        "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/bdc2d685-d4f8-4e95-afb3-c3e3769ceff5.jpg",
-        "party-location": "Cocoric\u00f2",
-        "party-url": "https://www.ticketsms.it/it/event/cocorico-riccione-easter-experience-8-aprile-2023"
-    },
-    {
-        "party-name": "EASTER EXPERIENCE MUTONIA DAY TWO",
-        "party-timestamp": 1681075800,
-        "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/7a19983a-cd62-4760-9741-7b5d1487e26a.jpg",
-        "party-location": "Cocoric\u00f2",
-        "party-url": "https://www.ticketsms.it/it/event/cocorico-riccione-easter-experience-9-aprile-2023"
-    },
-    {
-        "party-name": "EASTER EXPERIENCE DAY THREE",
-        "party-timestamp": 1681138800,
-        "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/af28baa1-cada-407b-b048-c78b494dede8.jpeg",
-        "party-location": "Cocoric\u00f2",
-        "party-url": "https://www.ticketsms.it/it/event/cocorico-riccione-easter-experience-10-aprile-2023"
-    },
-    {
         "party-name": "INSANITY - GABRY PONTE",
         "party-timestamp": 1680728400,
         "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/74563d0d-24fa-4026-9181-aaaa809fa536.jpeg",
@@ -35,59 +7,10 @@
         "party-url": "https://www.ticketsms.it/it/event/mkmDFZXu"
     },
     {
-        "party-name": "GALACTICA",
-        "party-timestamp": 1682199000,
-        "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/cb9f8615-2e5c-405b-8de7-09c54ff8e8c3.jpg",
-        "party-location": "Cocoric\u00f2",
-        "party-url": "https://www.ticketsms.it/it/event/Galactica-Cocorico-Sabato-22-Aprile-2023"
-    },
-    {
-        "party-name": "VIDALOCA - EASTER PARTY - RICCIONE",
+        "party-name": "EASTER PARTY",
         "party-timestamp": 1680984000,
-        "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/aadc2356-1081-4993-b7e0-5eb214717cf3.jpeg",
-        "party-location": "Peter Pan Club",
-        "party-url": "https://www.ticketsms.it/it/event/SxlMqQX8"
-    },
-    {
-        "party-name": "CLOROPHILLA - PETER PAN",
-        "party-timestamp": 1681070400,
-        "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/9cd5db9a-1aad-4fb7-9268-cd3afd2f30e7.jpeg",
-        "party-location": "Peter Pan Club",
-        "party-url": "https://www.ticketsms.it/it/event/CLOROPHILLA-PETERPAN"
-    },
-    {
-        "party-name": "VIDALOCA - RICCIONE",
-        "party-timestamp": 1680379200,
-        "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/7af6b7b6-f3b3-4307-ab3e-8edc5b811468.jpg",
-        "party-location": "Peter Pan Club",
-        "party-url": "https://www.ticketsms.it/it/event/VIDALOCA-RICCIONE-Sabato01Aprile"
-    },
-    {
-        "party-name": "VIDALOCA - RICCIONE",
-        "party-timestamp": 1681588800,
-        "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/ff2ff312-6ee8-4569-adcf-693a3c72eb50.jpg",
-        "party-location": "Peter Pan Club",
-        "party-url": "https://www.ticketsms.it/it/event/tTKoNpuz"
-    },
-    {
-        "party-name": "SOLARIS",
-        "party-timestamp": 1680292800,
-        "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/c2cba32d-a5f1-47f5-816a-0ede4adc32b7.jpg",
-        "party-location": "Peter Pan Club",
-        "party-url": "https://www.ticketsms.it/it/event/SOLARIS-PETERPAN"
-    },
-    {
-        "party-name": "MAMACITA FESTIVAL DAY ONE ",
-        "party-timestamp": 1689955200,
-        "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/b791f0c0-3155-4027-b54c-54c06b095bf8.jpeg",
-        "party-location": "Rimini Beach Arena",
-        "party-url": "https://www.ticketsms.it/it/event/mamacita-festival-rimini-lazza-21-luglio-2023"
-    },
-    {
-        "party-name": "MAMACITA FESTIVAL DAY TWO",
-        "party-timestamp": 1690041600,
-        "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/f9875851-756f-4514-945b-b74c365413e3.jpeg",
-        "party-location": "Rimini Beach Arena",
-        "party-url": "https://www.ticketsms.it/it/event/Gue-mamacita-festival-rimini-22-luglio-2023"
+        "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/5f164631-31e3-4d28-bb10-496e869cca5f.jpg",
+        "party-location": "Altromondo Studios",
+        "party-url": "https://www.ticketsms.it/it/event/edhday8w"
     }
 ]
