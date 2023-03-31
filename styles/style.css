@@ -576,7 +576,7 @@ body {
     text-align: center;
     font-size: 15px;
     align-self: center;
-    background-color: #a52a2a;
+    background-color: var(--clr-2);
     color: white;
     padding: 5px;
     border-radius: 10px;
