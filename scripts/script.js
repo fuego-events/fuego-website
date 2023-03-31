@@ -156,7 +156,11 @@ window.addEventListener("load", async function () {
         const luogoEventoField = Utilities.GetFieldContainer("Luogo evento", event['party-location']);
         const countdownField = Utilities.GetFieldContainer("Tempo mancante", "Evento terminato");
 
-        eventCard.append(partyImageField, nomeEventoField, dataEventoField, luogoEventoField, countdownField);
+        const eventButton = document.createElement("div");
+        eventButton.classList.add("event-button");
+        eventButton.textContent = "Acquista";
+
+        eventCard.append(partyImageField, nomeEventoField, dataEventoField, luogoEventoField, countdownField, eventButton);
 
         let toReplace;
         let toActive = false;
