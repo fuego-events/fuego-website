@@ -261,7 +261,7 @@ window.addEventListener("load", async function () {
 
         card.append(nomeEventoField, dataEventoField, showAlbum);
         
-        card.addEventListener("click", () => Utilities.SummonAlbumImagePopup(gitFile["_links"]["self"]));
+        card.addEventListener("click", () => Utilities.SummonAlbumImageList(gitFile["_links"]["self"]));
 
 
         aContainer.appendChild(card);

@@ -39,9 +39,9 @@ class Utilities {
         return backgroundPopup;
     }
 
-    static async SummonAlbumImagePopup(albumURL) {
+    static async SummonAlbumImagePopup(albumURL, forceindex) {
         const images = await fetch(albumURL).then(x => x.json());
-        let currentIndex = 0;
+        let currentIndex = forceindex;
 
         const backgroundPopup = Utilities.GetPopupBackground();
         const blurredBg = document.createElement("div");
@@ -114,6 +114,130 @@ class Utilities {
         const prevScrollY = window.scrollY;
         const prevBodyOverflowY = document.body.style.overflowY;
         const prevContainerOverflowY = document.querySelector(".container").style.overflowY;
+        
+        
+        document.body.style.overflowY = "hidden";
+        document.querySelector(".container").style.overflowY = "hidden";
+        document.querySelector("#menu-toggle").checked = false; 
+        
+        imageX.addEventListener("click", function() {
+            document.body.removeChild(backgroundPopup);
+            
+            document.body.style.overflowY = prevBodyOverflowY;
+            document.querySelector(".container").style.overflowY = prevContainerOverflowY;
+            window.scrollTo({
+                "left": 0,
+                "top": prevScrollY,
+                "behavior": "auto"
+            });
+        });
+        
+        
+        document.body.appendChild(backgroundPopup);
+
+
+    }
+
+    static async SummonAlbumImageList(albumURL) {
+        const prevScrollY = window.scrollY;
+        const prevBodyOverflowY = document.body.style.overflowY;
+        const prevContainerOverflowY = document.querySelector(".container").style.overflowY;
+        window.scrollTo(0, 0);
+        const images = await fetch(albumURL).then(x => x.json());
+        let currentIndex = 0;
+
+        let backgroundPopup = document.createElement("div");
+        backgroundPopup.classList.add('popup-background');
+        const blurredBg = document.createElement("div");
+        blurredBg.classList.add("blurred-background");
+        backgroundPopup.appendChild(blurredBg);
+
+        const photo = document.createElement("div");
+
+        for (let i = 0; i < images.length; i++) {
+            const imageElement = document.createElement("img");
+            imageElement.src = "./resources/wallpapers/loading.gif";
+            imageElement.classList.add("album-photo");
+            imageElement.setAttribute("loading", "lazy");
+            //imageElement.addEventListener("click", () => document.body.removeChild(backgroundPopup));
+            imageElement.addEventListener("click", () => Utilities.SummonAlbumImagePopup(albumURL, i));
+            let imageToLoad = new Image();
+            imageToLoad.onload = () => {
+                imageElement.src = images[i]['download_url'];
+            }
+            imageToLoad.src = images[i]['download_url'];
+
+            /*
+            const imageDownload = document.createElement("a");
+            imageDownload.download = images[i]['download_url'];
+            imageDownload.innerHTML = '<span class="material-symbols-outlined">file_download</span>';
+            imageDownload.classList.add('image-control', "control-download");
+            photo.appendChild(imageDownload);
+            */
+            photo.appendChild(imageElement);
+          }
+        photo.classList.add("album-scrollview");
+        backgroundPopup.appendChild(photo);
+
+        const imageX = document.createElement("div");
+        imageX.innerHTML = "&#10005;"
+        imageX.classList.add('image-control', "control-1");
+        backgroundPopup.appendChild(imageX);
+
+        
+
+        /*
+        const prevButton = document.createElement("div");
+        prevButton.innerHTML = '<span class="material-symbols-outlined">arrow_back</span>';
+        prevButton.classList.add('image-control', "control-3");
+        
+        const nextButton = document.createElement("div");
+        nextButton.innerHTML = '<span class="material-symbols-outlined">arrow_forward</span>';
+        nextButton.classList.add('image-control', "control-4");
+        */
+        
+        const changeImage = function(step) {
+            currentIndex += step;
+            if(currentIndex < 0) currentIndex = 0 
+            if(currentIndex >= images.length) currentIndex = images.length;
+
+            if(currentIndex - 1 < 0) prevButton.classList.add("disabled"); else prevButton.classList.remove("disabled"); 
+            if(currentIndex + 1 >= images.length) nextButton.classList.add("disabled"); else nextButton.classList.remove("disabled");
+            
+            photo.src = "./resources/wallpapers/loading.gif";
+            imageDownload.classList.add("disabled");
+
+
+            let imageToLoad = new Image();
+            imageToLoad.onload = () => {
+                photo.src = images[currentIndex]['download_url'];
+                imageDownload.href = images[currentIndex]['download_url'].replace("https://raw.githubusercontent.com/fuego-events/fuego-website/main", ".");
+                imageDownload.classList.remove("disabled");
+            }
+            imageToLoad.src = images[currentIndex]['download_url'];
+
+            // photo.src = images[currentIndex]['download_url'];
+            // imageDownload.href = images[currentIndex]['download_url'].replace("https://raw.githubusercontent.com/fuego-events/fuego-website/main", ".");
+
+        };
+        /*
+        prevButton.addEventListener("click", function() {
+            changeImage(-1);
+        });
+
+        nextButton.addEventListener("click", function() {
+            changeImage(+1);
+        });
+        changeImage(0);
+        
+
+
+        backgroundPopup.appendChild(prevButton);
+        backgroundPopup.appendChild(nextButton);
+        */
+
+        // -> Make the background unclickable
+        
         
         
         document.body.style.overflowY = "hidden";
