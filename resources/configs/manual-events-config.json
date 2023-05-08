@@ -21,13 +21,6 @@
       "party-url": "https://www.ticketsms.it/event/GRie2Unp"
     },
     {
-      "party-name": "20/08 TAXI BI - PETER PAN",
-      "party-timestamp": 1661032800,
-      "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/65f99a51-4016-4e76-81c1-a17ee88e445f.jpg",
-      "party-location": "Peter Pan Club / Misano Adriatico",
-      "party-url": "https://www.ticketsms.it/promoter/riccardo.pasquarella"
-    },
-    {
       "party-name": "23/08 BORO BORO - PETER PAN",
       "party-timestamp": 1661292000,
       "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/7480c19f-b2e3-49ef-89c9-3b30e3ad0168.jpeg",
@@ -39,13 +32,6 @@
       "party-timestamp": 1661292000,
       "party-image-url": "../resources/events-thumbnails/seaway-09-08.jpeg",
       "party-location": "Chiringuito-Caicos/Nettuno - Bagno 28 Rimini (RN)",
-      "party-url": null
-    },
-    {
-      "party-name": "25/08 GLOW PARTY",
-      "party-timestamp": 1661464800,
-      "party-image-url": "../resources/events-thumbnails/18-AGOSTO-f.jpg",
-      "party-location": "Chiringuito/Kokale - Bagno 63 Rimini (RN)",
       "party-url": null
     },
     {
@@ -124,5 +110,12 @@
       "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/e856ba58-dca6-42c8-a75d-c97e95d0ba8c.jpg",
       "party-location": "Peter Pan Club / Misano Adriatico",
       "party-url": "https://www.ticketsms.it/event/Y5XaEK18"
+    },
+    {
+      "party-name": "VILLA DELLE ROSE 12-13 MAY - OPENING PARTY ",
+      "party-timestamp": 1683936000,
+      "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/08ffe39b-d818-4319-bd0d-dffd726cdf95.jpg",
+      "party-location": "Villa delle Rose / misano adriatico",
+      "party-url": "https://www.ticketsms.it/event/8cOc1yRc"
     }
   ]
