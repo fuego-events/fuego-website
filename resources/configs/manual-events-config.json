@@ -35,13 +35,6 @@
       "party-url": null
     },
     {
-      "party-name": "30/08GO-SUERTE SEAWAY",
-      "party-timestamp": 1661893200,
-      "party-image-url": "../resources/events-thumbnails/seaway-09-08.jpeg",
-      "party-location": "Chiringuito-Caicos/Nettuno - Bagno 28 Rimini (RN)",
-      "party-url": null
-    },
-    {
       "party-name": "01/09 GLOW PARTY",
       "party-timestamp": 1662066000,
       "party-image-url": "../resources/events-thumbnails/01-SETTEMBRE.jpeg",
@@ -131,5 +124,12 @@
       "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/5f836dd8-87df-4eee-9e09-b7d42097cfb0.jpg",
       "party-location": "Villa delle Rose / misano adriatico",
       "party-url": "https://www.ticketsms.it/event/kWWPf237"
+    },
+    {
+      "party-name": "GUAPA - BORO BORO - BEKY BAY",
+      "party-timestamp": "1687557600",
+      "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/f39437c5-8180-4d72-8922-b8ca66f70e02.png",
+      "party-location": "Beky Bay / Igea Marina",
+      "party-url": "https://www.ticketsms.it/event/UtFBWKai"
     }
   ]
