@@ -131,5 +131,12 @@
       "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/f39437c5-8180-4d72-8922-b8ca66f70e02.png",
       "party-location": "Beky Bay / Igea Marina",
       "party-url": "https://www.ticketsms.it/event/UtFBWKai"
+    },
+    {
+      "party-name": "13/06 GLOW PARTY",
+      "party-timestamp": 1686690000,
+      "party-image-url": "../resources/events-thumbnails/7b9cf5bd-25e2-4d75-a80a-a1291f1d3cd8.jpeg",
+      "party-location": "Chiringuito/Kokale - Bagno 63 Rimini (RN)",
+      "party-url": null
     }
   ]
