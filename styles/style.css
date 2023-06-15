@@ -1357,6 +1357,10 @@ body {
     z-index: 1;
     text-align: center;
     height: inherit;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 0.8em;
 }
 
 
