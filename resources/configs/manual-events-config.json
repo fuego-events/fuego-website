@@ -49,13 +49,6 @@
       "party-url": null
     },
     {
-      "party-name": "10/09 CLOSING/FUEGO-SUERTE SEAWAY",
-      "party-timestamp": 1662843600,
-      "party-image-url": "../resources/events-thumbnails/seaway-09-08.jpeg",
-      "party-location": "Chiringuito-Caicos/Nettuno - Bagno 28 Rimini (RN)",
-      "party-url": null
-    },
-    {
       "party-name": "31/10 MAGILLA - HALLOWEEN PARTY - ALTROMONDO STUDIOS",
       "party-timestamp": 1667253600,
       "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/b903ac54-2bf7-480f-b451-133129181ae5.jpeg",
@@ -82,13 +75,6 @@
       "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/0cb1b252-45c2-48da-8a0f-770ccbbc601d.jpeg",
       "party-location": "Cocoricò / Riccione",
       "party-url": "https://www.ticketsms.it/event/EqPvVYvt"
-    },
-    {
-      "party-name": "CARNEVALE - ALTROMONDO STUDIOS",
-      "party-timestamp": 1676757600,
-      "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/d1f16389-248b-4276-b81b-aa7d7798475e.jpeg",
-      "party-location": "Altromondo Studios / Rimini",
-      "party-url": "https://www.ticketsms.it/event/mGSIgWHI" 
     },
     {
       "party-name": "ICY SUBZERO - ALTROMONDO STUDIOS",
@@ -131,6 +117,13 @@
       "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/f39437c5-8180-4d72-8922-b8ca66f70e02.png",
       "party-location": "Beky Bay / Igea Marina",
       "party-url": "https://www.ticketsms.it/event/UtFBWKai"
+    },
+     {
+      "party-name": "TE LO DEDICO - SCHIUMA PARTY",
+      "party-timestamp": "1688853600000",
+      "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/1f43d8bb-e198-46a1-a94d-8d12d17f66ad.png",
+      "party-location": "Beky Bay / Igea Marina",
+      "party-url": "https://www.ticketsms.it/event/5Lv3VVZZ"
     },
     {
       "party-name": "13/06 GLOW PARTY",
