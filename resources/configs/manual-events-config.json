@@ -138,5 +138,13 @@
       "party-image-url": "../resources/events-thumbnails/7b9cf5bd-25e2-4d75-a80a-a1291f1d3cd8.jpeg",
       "party-location": "Chiringuito/Kokale - Bagno 63 Rimini (RN)",
       "party-url": null
+    },
+    {
+      "party-name": "BANDIDA - PAKY - PETER PAN",
+      "party-timestamp": 1688853600000,
+      "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/c66ce069-818a-4c76-b3d1-8aa60e9830db.jpg",
+      "party-location": "Peter Pan Club / Misano Adriatico",
+      "party-url": "https://www.ticketsms.it/event/DSO6I4vk"
     }
+    
   ]
