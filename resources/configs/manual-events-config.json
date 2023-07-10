@@ -14,31 +14,10 @@
       "party-url": "https://www.ticketsms.it/event/XgVz53jC"
     },
     {
-      "party-name": "21/08 PAKY - ALTROMONDO STUDIOS",
-      "party-timestamp": 1661122800,
-      "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/877eb426-4dde-4760-ba7a-70cb03bf30a3.jpeg",
-      "party-location": "Altromondo Studios ! / Rimini",
-      "party-url": "https://www.ticketsms.it/event/GRie2Unp"
-    },
-    {
-      "party-name": "23/08 BORO BORO - PETER PAN",
-      "party-timestamp": 1661292000,
-      "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/7480c19f-b2e3-49ef-89c9-3b30e3ad0168.jpeg",
-      "party-location": "Peter Pan Club / Misano Adriatico",
-      "party-url": "https://www.ticketsms.it/promoter/riccardo.pasquarella"
-    },
-    {
       "party-name": "23/08 FUEGO-SUERTE SEAWAY",
       "party-timestamp": 1661292000,
       "party-image-url": "../resources/events-thumbnails/seaway-09-08.jpeg",
       "party-location": "Chiringuito-Caicos/Nettuno - Bagno 28 Rimini (RN)",
-      "party-url": null
-    },
-    {
-      "party-name": "01/09 GLOW PARTY",
-      "party-timestamp": 1662066000,
-      "party-image-url": "../resources/events-thumbnails/01-SETTEMBRE.jpeg",
-      "party-location": "Chiringuito/Kokale - Bagno 63 Rimini (RN)",
       "party-url": null
     },
     {
@@ -138,6 +117,20 @@
       "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/cb37d2c1-38df-4584-843f-ba6577836491.png",
       "party-location": "Cocoricò / Riccione",
       "party-url": "https://www.ticketsms.it/event/SfV0Dys6"
+    },
+    {
+      "party-name": "MAMBOLOSCO - PETER PAN",
+      "party-timestamp": 1689075570,
+      "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/b82d1b5a-a9d7-4f1a-a88d-b282e97c2613.png",
+      "party-location": "Peter Pan Club / Misano Adriatico",
+      "party-url": "https://www.ticketsms.it/event/w6ePORal"
+    },
+    {
+      "party-name": "INSANITY - COCORICO",
+      "party-timestamp": 1689334770,
+      "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/c22f3333-1255-4634-a87a-d8338c40f412.png",
+      "party-location": "Cocoricò / Riccione",
+      "party-url": "https://www.ticketsms.it/event/1Y3Y8K5c"
     }
     
   ]
