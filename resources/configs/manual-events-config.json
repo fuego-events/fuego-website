@@ -2,7 +2,7 @@
     {
       "party-name": "18/08 GLOW PARTY",
       "party-timestamp": 1660856400,
-      "party-image-url": "../resources/events-thumbnails/18-AGOSTO-f.jpg",
+      "party-image-url": "../resource/events-thumbnails/18-AGOSTO-f.jpg",
       "party-location": "Chiringuito/Kokale - Bagno 63 Rimini (RN)",
       "party-url": null
     },
@@ -132,12 +132,19 @@
       "party-location": "Cocoricò / Riccione",
       "party-url": "https://www.ticketsms.it/event/1Y3Y8K5c"
     },
-     {
+    {
       "party-name": "OPEN SOUND - PETER PAN",
       "party-timestamp": 1689458400,
       "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/7c1e993c-0d14-46cd-a2ea-3d0fb6b17ac8.jpg",
       "party-location": "Peter Pan Club / Misano Adriatico",
       "party-url": "https://www.ticketsms.it/event/TMP4EXhH"
+    },
+     {
+      "party-name": "FUEGO AT PETER GARDEN - PETER PAN",
+      "party-timestamp": 1690063200,
+      "party-image-url": "../resource/events-thumbnails/28fb9ece-61b9-4b1c-9cf0-27c16328a6a7.jpeg
+      "party-location":"Peter Pan Club / Misano Adriatico",
+      "party-url": "https://www.ticketsms.it/event/0Uhs2Vsw"
     }
     
   ]
