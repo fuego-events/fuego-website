@@ -105,13 +105,6 @@
       "party-url": "https://www.ticketsms.it/event/DSO6I4vk"
     },
     {
-      "party-name": "INSANITY - COCORICO",
-      "party-timestamp": 1688763600,
-      "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/cb37d2c1-38df-4584-843f-ba6577836491.png",
-      "party-location": "Cocoricò / Riccione",
-      "party-url": "https://www.ticketsms.it/event/SfV0Dys6"
-    },
-    {
       "party-name": "MAMBOLOSCO - PETER PAN",
       "party-timestamp": 1689075570,
       "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/b82d1b5a-a9d7-4f1a-a88d-b282e97c2613.png",
@@ -126,18 +119,35 @@
       "party-url": "https://www.ticketsms.it/event/1Y3Y8K5c"
     },
     {
-      "party-name": "OPEN SOUND - PETER PAN",
-      "party-timestamp": 1689458400,
-      "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/7c1e993c-0d14-46cd-a2ea-3d0fb6b17ac8.jpg",
-      "party-location": "Peter Pan Club / Misano Adriatico",
-      "party-url": "https://www.ticketsms.it/event/TMP4EXhH"
-    },
-    {
       "party-name": "FUEGO AT PETER GARDEN - PETER PAN",
       "party-timestamp": 1690059600,
       "party-image-url": "../resources/events-thumbnails/28fb9ece-61b9-4b1c-9cf0-27c16328a6a7.jpeg",
       "party-location": "Peter Pan Club / Misano Adriatico",
       "party-url": "https://www.ticketsms.it/event/0Uhs2Vsw"
+    },
+    {
+      "party-name": "DOMINO - ANNA - PETER PAN",
+      "party-timestamp": 1690318800,
+      "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/912d447d-950c-4bda-a2bc-96cc3f9876cf.png",
+      "party-location": "Peter Pan Club / Misano Adriatico",
+      "party-url": "https://www.ticketsms.it/event/tnx1HU6Y"
+    },
+    {
+      "party-name": "POKER SOUND FESTIVAL - TEDUA + SHIVA + MAMBOLOSCO + FINESSE - RIMINI",
+      "party-timestamp": 1690567200,
+      "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/c44687da-e4c5-4eac-a3f3-f4a46df6b899.jpg",
+      "party-location": "Rimini Beach Arena / RIMINI",
+      "party-url": "https://www.ticketsms.it/event/hUV4R3z3"
+    },
+    {
+      "party-name": "VILLA DELLE ROSE - POKER SOUND FESTIVAL - CAPO PLAZA - RICCIONE",
+      "party-timestamp": 1690491600,
+      "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/3f4ce82a-8552-42d9-aed9-d1bb7a5a028d.jpeg",
+      "party-location": "Villa delle Rose / misano adriatico",
+      "party-url": "https://www.ticketsms.it/event/Nb6oQLH3"
     }
+    
+    
+    
     
   ]
