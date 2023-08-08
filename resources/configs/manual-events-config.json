@@ -140,19 +140,20 @@
       "party-url": "https://www.ticketsms.it/event/Nb6oQLH3"
     },
     {
-      "party-name": "DOMINO - NEIMA EZZA - PETER PAN",
-      "party-timestamp": 1690923600,
-      "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/9f373db7-a8e2-4e70-8998-407ab7f8ade4.png",
-      "party-location": "Peter Pan Club / Misano Adriatico",
-      "party-url": "https://www.ticketsms.it/event/NqUsReDt"
-    },
-    {
       "party-name": "RANDOM - UNA FESTA A CASO - BEKY BAY",
       "party-timestamp": 1692046800,
       "party-location":"https://d2fa23zcjd5klo.cloudfront.net/square/event/208f9d15-4044-44e5-93cf-5d7c4e0c4ccb.png",
       "party-location": "Beky Bay / Igea Marina",
       "party-url": "https://www.ticketsms.it/event/RAJj8uSp"
+    },
+    {
+      "party-name": "OPEN SOUND - TEDUA - TITA LAU - PETER",
+      "party-timestamp": 1691874000,
+      "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/272ff870-0be7-4aad-bd8a-2e50f7196136.png",
+      "party-location": "Peter Pan Club / Misano Adriatico",
+      "party-url": "https://www.ticketsms.it/event/AkgECLQO"
     }
+    
     
     
     
