@@ -7,13 +7,6 @@
       "party-url": null
     },
     {
-      "party-name": "17/08 RHOVE - ALTROMONDO STUDIOS",
-      "party-timestamp": 1660773600,
-      "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/e4907e61-1cc3-4080-8947-d992ee931b10.jpeg",
-      "party-location": "Altromondo Studios / Rimini",
-      "party-url": "https://www.ticketsms.it/event/XgVz53jC"
-    },
-    {
       "party-name": "23/08 FUEGO-SUERTE SEAWAY",
       "party-timestamp": 1661292000,
       "party-image-url": "../resources/events-thumbnails/seaway-09-08.jpeg",
@@ -42,13 +35,6 @@
       "party-url": "https://www.ticketsms.it/event/Y4hDlSEo"
     },
     {
-      "party-name": "MAÑANA - COCORICO",
-      "party-timestamp": 1672959600 ,
-      "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/0cb1b252-45c2-48da-8a0f-770ccbbc601d.jpeg",
-      "party-location": "Cocoricò / Riccione",
-      "party-url": "https://www.ticketsms.it/event/EqPvVYvt"
-    },
-    {
       "party-name": "ICY SUBZERO - ALTROMONDO STUDIOS",
       "party-timestamp": 1682373600,
       "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/b010d959-d8b5-4d09-8a42-a9a4c801d167.jpg",
@@ -70,25 +56,11 @@
       "party-url": "https://www.ticketsms.it/event/8cOc1yRc"
     },
     {
-      "party-name": "VILLA DELLE ROSE - NUNC EST BIBENDUM X CELEBRITY",
-      "party-timestamp": 1686171600,
-      "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/11a8cd00-12cb-4d48-89d6-c441c1c70c7b.jpg",
-      "party-location": "Villa delle Rose / misano adriatico",
-      "party-url": "https://www.ticketsms.it/event/WUKI7wYk"
-    },
-    {
       "party-name": "VILLA DELLE ROSE - VENI VIDI VICI",
       "party-timestamp": 1686261600,
       "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/5f836dd8-87df-4eee-9e09-b7d42097cfb0.jpg",
       "party-location": "Villa delle Rose / misano adriatico",
       "party-url": "https://www.ticketsms.it/event/kWWPf237"
-    },
-    {
-      "party-name": "TE LO DEDICO - SCHIUMA PARTY",
-      "party-timestamp": 1688821200,
-      "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/1f43d8bb-e198-46a1-a94d-8d12d17f66ad.png",
-      "party-location": "Beky Bay / Igea Marina",
-      "party-url": "https://www.ticketsms.it/event/5Lv3VVZZ"
     },
     {
       "party-name": "13/06 GLOW PARTY",
@@ -152,6 +124,13 @@
       "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/272ff870-0be7-4aad-bd8a-2e50f7196136.png",
       "party-location": "Peter Pan Club / Misano Adriatico",
       "party-url": "https://www.ticketsms.it/event/AkgECLQO"
+    },
+    {
+      "party-name": "DOMINO - TONY EFFE - PETER",
+      "party-timestamp": 1692046800,
+      "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/1aeb7aa2-3408-45e5-aff0-9add5cfd5afe.png",
+      "party-location": "Peter Pan Club / Misano Adriatico",
+      "party-url": "https://www.ticketsms.it/event/YmzjQTG0"
     }
     
     
