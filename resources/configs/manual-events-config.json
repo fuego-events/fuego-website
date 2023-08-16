@@ -105,13 +105,6 @@
       "party-url": "https://www.ticketsms.it/event/Nb6oQLH3"
     },
     {
-      "party-name": "RANDOM - UNA FESTA A CASO - BEKY BAY",
-      "party-timestamp": 1692046800,
-      "party-location":"https://d2fa23zcjd5klo.cloudfront.net/square/event/208f9d15-4044-44e5-93cf-5d7c4e0c4ccb.png",
-      "party-location": "Beky Bay / Igea Marina",
-      "party-url": "https://www.ticketsms.it/event/RAJj8uSp"
-    },
-    {
       "party-name": "OPEN SOUND - TEDUA - TITA LAU - PETER",
       "party-timestamp": 1691874000,
       "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/272ff870-0be7-4aad-bd8a-2e50f7196136.png",
@@ -131,6 +124,14 @@
       "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/8aed83f4-0260-43fa-ae54-50af901aba16.png",
       "party-location": "Peter Pan Club / Misano Adriatico",
       "party-url": "https://www.ticketsms.it/event/OkCbgNqr"
+    },
+    {
+      "party-name": "DISS GACHA - SCHIUMA PARTY - BEKY BAY",
+      "party-timestamp": 1693083600,
+      "party-location":"https://d2fa23zcjd5klo.cloudfront.net/square/event/d1ca9216-36b2-4426-bd8b-f67e7261c429.jpg",
+      "party-location": "Beky Bay / Igea Marina",
+      "party-url": "https://www.ticketsms.it/event/oN7mvdEX"
+    },
     
     
     
