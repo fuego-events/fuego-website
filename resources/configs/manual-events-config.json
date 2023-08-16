@@ -70,13 +70,6 @@
       "party-url": null
     },
     {
-      "party-name": "BANDIDA - PAKY - PETER PAN",
-      "party-timestamp": 1688846400,
-      "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/c66ce069-818a-4c76-b3d1-8aa60e9830db.jpg",
-      "party-location": "Peter Pan Club / Misano Adriatico",
-      "party-url": "https://www.ticketsms.it/event/DSO6I4vk"
-    },
-    {
       "party-name": "INSANITY - COCORICO",
       "party-timestamp": 1689334770,
       "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/c22f3333-1255-4634-a87a-d8338c40f412.png",
@@ -131,7 +124,14 @@
       "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/1aeb7aa2-3408-45e5-aff0-9add5cfd5afe.png",
       "party-location": "Peter Pan Club / Misano Adriatico",
       "party-url": "https://www.ticketsms.it/event/YmzjQTG0"
-    }
+    },
+    {
+      "party-name": "OPEN SOUNDS - FUEGO - PETER PAN",
+      "party-timestamp": 1692478800,
+      "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/8aed83f4-0260-43fa-ae54-50af901aba16.png",
+      "party-location": "Peter Pan Club / Misano Adriatico",
+      "party-url": "https://www.ticketsms.it/event/OkCbgNqr"
+    
     
     
     
