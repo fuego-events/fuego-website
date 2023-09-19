@@ -112,13 +112,6 @@
       "party-url": "https://www.ticketsms.it/event/AkgECLQO"
     },
     {
-      "party-name": "DOMINO - TONY EFFE - PETER",
-      "party-timestamp": 1692046800,
-      "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/1aeb7aa2-3408-45e5-aff0-9add5cfd5afe.png",
-      "party-location": "Peter Pan Club / Misano Adriatico",
-      "party-url": "https://www.ticketsms.it/event/YmzjQTG0"
-    },
-    {
       "party-name": "OPEN SOUNDS - FUEGO - PETER PAN",
       "party-timestamp": 1692478800,
       "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/8aed83f4-0260-43fa-ae54-50af901aba16.png",
@@ -131,7 +124,14 @@
       "party-location":"https://d2fa23zcjd5klo.cloudfront.net/square/event/d1ca9216-36b2-4426-bd8b-f67e7261c429.jpg",
       "party-location": "Beky Bay / Igea Marina",
       "party-url": "https://www.ticketsms.it/event/oN7mvdEX"
-    }
+    },
+    {
+      "party-name": "FUEGO - PETER PAN",
+      "party-timestamp": 1696712400,
+      "party-image-url": "",
+      "party-location": "Peter Pan Club / Misano Adriatico",
+      "party-url": "https://www.ticketsms.it/event/OkCbgNqr"
+    },
     
     
     
