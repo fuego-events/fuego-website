@@ -112,13 +112,6 @@
       "party-url": "https://www.ticketsms.it/event/AkgECLQO"
     },
     {
-      "party-name": "OPEN SOUNDS - FUEGO - PETER PAN",
-      "party-timestamp": 1692478800,
-      "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/8aed83f4-0260-43fa-ae54-50af901aba16.png",
-      "party-location": "Peter Pan Club / Misano Adriatico",
-      "party-url": "https://www.ticketsms.it/event/OkCbgNqr"
-    },
-    {
       "party-name": "DISS GACHA - SCHIUMA PARTY - BEKY BAY",
       "party-timestamp": 1693083600,
       "party-location":"https://d2fa23zcjd5klo.cloudfront.net/square/event/d1ca9216-36b2-4426-bd8b-f67e7261c429.jpg",
@@ -173,7 +166,15 @@
       "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/254657ec-dd39-4af3-aa8b-5584652d00fa.jpg",
       "party-location": "Wonderland Club / Sant'Arcangelo di Romagna",
       "party-url": "https://www.ticketsms.it/event/yt7wtZRm"
+    },
+    {
+      "party-name": "NIKY SAVAGE - FUEGO - WONDERLAND",
+      "party-timestamp": 1710622800,
+      "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/a0fb4198-9495-4bec-88c5-f2aaf5cd8f75.jpg",
+      "party-location": "Wonderland Club / Sant'Arcangelo di Romagna",
+      "party-url": "https://www.ticketsms.it/event/fUEzmrg0"
     }
+    
     
     
     
