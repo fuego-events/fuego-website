@@ -154,13 +154,6 @@
     "party-url": "https://www.ticketsms.it/event/ZRC2uwrz"
   },
   {
-    "party-name": "GIRLS PARTY - WONDERLAND by FUEGO",
-    "party-timestamp": 1707602400,
-    "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/45ac7681-2ec4-47cf-917b-9b424950123f.jpg",
-    "party-location": "Wonderland Club / Sant'Arcangelo di Romagna",
-    "party-url": "https://www.ticketsms.it/event/0leUc1Fg"
-  },
-  {
     "party-name": "NIKY SAVAGE - FUEGO - WONDERLAND",
     "party-timestamp": 1710622800,
     "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/a0fb4198-9495-4bec-88c5-f2aaf5cd8f75.jpg",
@@ -173,5 +166,12 @@
     "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/3fa182fe-f11b-48ed-baa0-dfc9917add70.jpg",
     "party-location": "Wonderland Club / Sant'Arcangelo di Romagna",
     "party-url": "https://www.ticketsms.it/event/6tLmOQlD"
+  },
+  {
+    "party-name": "PROM PARTY - VILLA DES VERGERS",
+    "party-timestamp": 1714849200,
+    "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/6e383a78-961a-4b48-8e1e-af602e4a173d.jpg",
+    "party-location": "Villa Des Verges / Rimini",
+    "party-url": "https://www.ticketsms.it/event/KcOdre5Y"
   }
 ]
