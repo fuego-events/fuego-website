@@ -140,13 +140,6 @@
     "party-url": "https://www.ticketsms.it/event/qAgr0Qe8"
   },
   {
-    "party-name": "MEDY - WONDERLAND",
-    "party-timestamp": 1702764000,
-    "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/abb1a37d-f56e-4499-a54e-bf70e039d788.jpg",
-    "party-location": "Wonderland Club / Sant'Arcangelo di Romagna",
-    "party-url": "https://www.ticketsms.it/event/DALMKb2K"
-  },
-  {
     "party-name": "TONY BOY - WONDERLAND",
     "party-timestamp": 1706389200,
     "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/1c54f760-1f4d-44b9-9eac-0e6947e58017.jpg",
@@ -173,5 +166,12 @@
     "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/6e383a78-961a-4b48-8e1e-af602e4a173d.jpg",
     "party-location": "Villa Des Verges / Rimini",
     "party-url": "https://www.ticketsms.it/event/KcOdre5Y"
+  },
+  {
+    "party-name": "OPENING SUMMER PARTY - FUEGO",
+    "party-timestamp": 1717884000,
+    "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/34de3fed-71d6-4cba-97c5-a70cc650d062.jpg",
+    "party-location": "Beky Bay / Igea Marina",
+    "party-url": "https://www.ticketsms.it/event/ccdoDfQZ"
   }
 ]
