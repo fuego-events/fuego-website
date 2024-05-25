@@ -63,13 +63,6 @@
     "party-url": "https://www.ticketsms.it/event/kWWPf237"
   },
   {
-    "party-name": "13/06 GLOW PARTY",
-    "party-timestamp": 1686690000,
-    "party-image-url": "../resources/events-thumbnails/7b9cf5bd-25e2-4d75-a80a-a1291f1d3cd8.jpeg",
-    "party-location": "Chiringuito/Kokale - Bagno 63 Rimini (RN)",
-    "party-url": null
-  },
-  {
     "party-name": "INSANITY - COCORICO",
     "party-timestamp": 1689334770,
     "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/c22f3333-1255-4634-a87a-d8338c40f412.png",
@@ -103,13 +96,6 @@
     "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/3f4ce82a-8552-42d9-aed9-d1bb7a5a028d.jpeg",
     "party-location": "Villa delle Rose / misano adriatico",
     "party-url": "https://www.ticketsms.it/event/Nb6oQLH3"
-  },
-  {
-    "party-name": "OPEN SOUND - TEDUA - TITA LAU - PETER",
-    "party-timestamp": 1691874000,
-    "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/272ff870-0be7-4aad-bd8a-2e50f7196136.png",
-    "party-location": "Peter Pan Club / Misano Adriatico",
-    "party-url": "https://www.ticketsms.it/event/AkgECLQO"
   },
   {
     "party-name": "DISS GACHA - SCHIUMA PARTY - BEKY BAY",
@@ -173,5 +159,12 @@
     "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/34de3fed-71d6-4cba-97c5-a70cc650d062.jpg",
     "party-location": "Beky Bay / Igea Marina",
     "party-url": "https://www.ticketsms.it/event/ccdoDfQZ"
+  },
+  {
+    "party-name": "SILENT BOB AND SICK BUDD - FUEGO",
+    "party-timestamp": 1718755200,
+    "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/dd5fa66e-de3c-4e93-a473-9b5d6dde78c5.jpg",
+    "party-location": "Beky Bay / Igea Marina",
+    "party-url": "https://www.ticketsms.it/event/sFyX7wjf"
   }
 ]
