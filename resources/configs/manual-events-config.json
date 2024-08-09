@@ -42,13 +42,6 @@
     "party-url": "https://www.ticketsms.it/event/pgvbK6QU"
   },
   {
-    "party-name": "VILLA DELLE ROSE 12-13 MAY - OPENING PARTY ",
-    "party-timestamp": 1683936000,
-    "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/08ffe39b-d818-4319-bd0d-dffd726cdf95.jpg",
-    "party-location": "Villa delle Rose / misano adriatico",
-    "party-url": "https://www.ticketsms.it/event/8cOc1yRc"
-  },
-  {
     "party-name": "VILLA DELLE ROSE - VENI VIDI VICI",
     "party-timestamp": 1686261600,
     "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/5f836dd8-87df-4eee-9e09-b7d42097cfb0.jpg",
@@ -147,17 +140,17 @@
     "party-url": "https://www.ticketsms.it/event/hve2lUU1"
   },
   {
-    "party-name": "DIGITAL ASTRO - 22 SIMBA - GIRLS PARTY - FUEGO",
-    "party-timestamp": 1722546000,
-    "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/95253f04-7351-45b6-9ed0-adb24c2939ba.jpg",
-    "party-location": "Beky Bay / Igea Marina",
-    "party-url": "https://www.ticketsms.it/event/JqDWEmOf"
-  },
-  {
     "party-name": "TONY BOY LIVE SUMMER TOUR - FUEGO",
     "party-timestamp": 1723150800,
     "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/92fbd311-7652-4fbb-9e43-40fa1df48b68.jpg",
     "party-location": "Beky Bay / Igea Marina",
     "party-url": "https://www.ticketsms.it/event/y3DHC7HR"
+  },
+  {
+    "party-name": "PAPA V - NERISSIMA SERPE LIVE TOUR - FUEGO",
+    "party-timestamp": 1723237200,
+    "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/c6fc290c-f484-4561-9858-fd5285e1b62f.jpg",
+    "party-location": "Beky Bay / Igea Marina",
+    "party-url": "https://www.ticketsms.it/event/oEmgVPCW"
   }
 ]
