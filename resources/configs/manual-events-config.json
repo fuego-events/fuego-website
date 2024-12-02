@@ -63,13 +63,6 @@
     "party-url": "https://www.ticketsms.it/event/0Uhs2Vsw"
   },
   {
-    "party-name": "POKER SOUND FESTIVAL - TEDUA + SHIVA + MAMBOLOSCO + FINESSE - RIMINI",
-    "party-timestamp": 1690567200,
-    "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/c44687da-e4c5-4eac-a3f3-f4a46df6b899.jpg",
-    "party-location": "Rimini Beach Arena / RIMINI",
-    "party-url": "https://www.ticketsms.it/event/hUV4R3z3"
-  },
-  {
     "party-name": "VILLA DELLE ROSE - POKER SOUND FESTIVAL - CAPO PLAZA - RICCIONE",
     "party-timestamp": 1690491600,
     "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/3f4ce82a-8552-42d9-aed9-d1bb7a5a028d.jpeg",
@@ -166,6 +159,13 @@
     "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/a7cbd278-f1cc-4414-b6e2-df9e09bdd4e3.jpg",
     "party-location": "Wonderland Club / Sant'Arcangelo di Romagna",
     "party-url": "https://www.ticketsms.it/event/oBcAQuB5"
+  },
+  {
+    "party-name": "FREZZA - WONDERLAND by FUEGO",
+    "party-timestamp": 1734210000,
+    "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/c597fc68-a9c5-42d7-b824-4e9c87352534.jpg",
+    "party-location": "Wonderland Club / Sant'Arcangelo di Romagna",
+    "party-url": "https://www.ticketsms.it/event/w1cKv3cq"
   }
   
 ]
