@@ -154,25 +154,18 @@
     "party-url": "https://www.ticketsms.it/event/rbkvnm6B"
   },
   {
-    "party-name": "NERISSIMA SERPE - WONDERLAND by FUEGO",
+    "party-name": "NERISSIMA SERPE - FUEGO",
     "party-timestamp": 1733000400,
     "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/a7cbd278-f1cc-4414-b6e2-df9e09bdd4e3.jpg",
     "party-location": "Wonderland Club / Sant'Arcangelo di Romagna",
     "party-url": "https://www.ticketsms.it/event/oBcAQuB5"
   },
   {
-    "party-name": "FREZZA - WONDERLAND by FUEGO",
+    "party-name": "FREZZA -FUEGO", 
     "party-timestamp": 1734210000,
     "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/c597fc68-a9c5-42d7-b824-4e9c87352534.jpg",
     "party-location": "Wonderland Club / Sant'Arcangelo di Romagna",
     "party-url": "https://www.ticketsms.it/event/w1cKv3cq"
-  },
-  {
-    "party-name": "GIRLS PARTY - WONDERLAND by FUEGO",
-    "party-timestamp": 1742677200,
-    "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/de5f26df-debe-48a2-b9f4-247e2616eafd.jpg",
-    "party-location": "Wonderland Club / Sant'Arcangelo di Romagna",
-    "party-url": "https://www.ticketsms.it/event/AOqSTsZc"
   },
   {
     "party-name": "167 GANG - FUEGO at VISION",
@@ -180,7 +173,16 @@
     "party-image-url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5UDPpGvgYXHebIgHSIxI27z01mdZzzb2Tug&s",
     "party-location": "Vision club / SRM",
     "party-url": "https://docs.google.com/forms/d/e/1FAIpQLSdLXuGreeKqTJ30y0e5bXhUmzU_H5EQ6LBqabUoqPC2Pj0Vtg/viewform?usp=send_form"
+  },
+  {
+    "party-name": "Shock - Shiva - Cocoricò",
+    "party-timestamp": 1750194000,
+    "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/1105bd58-7160-483e-bc88-8129cf4353aa.jpg",
+    "party-location": "Cocoricò / Riccione",
+    "party-url": "https://www.ticketsms.it/event/DDXAGIvX"
   }
+  
+  
   
  
 ]
