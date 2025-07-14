@@ -126,20 +126,6 @@
     "party-url": "https://www.ticketsms.it/event/ccdoDfQZ"
   },
   {
-    "party-name": "NEIMA EZZA - FUEGO",
-    "party-timestamp": 1718755200,
-    "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/86e39ff3-57ca-417b-8ddb-a22eb2cb8a1b.jpg",
-    "party-location": "Beky Bay / Igea Marina",
-    "party-url": "https://www.ticketsms.it/event/hve2lUU1"
-  },
-  {
-    "party-name": "TONY BOY LIVE SUMMER TOUR - FUEGO",
-    "party-timestamp": 1723150800,
-    "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/92fbd311-7652-4fbb-9e43-40fa1df48b68.jpg",
-    "party-location": "Beky Bay / Igea Marina",
-    "party-url": "https://www.ticketsms.it/event/y3DHC7HR"
-  },
-  {
     "party-name": "ANNA at BEKY BAY - FUEGO",
     "party-timestamp": 1725742800,
     "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/255c57b7-56a8-4907-89c5-af331e5aa4d2.jpg",
@@ -187,6 +173,20 @@
     "party-image-url": "https://discoteche-riccione-rimini.it/wp-content/uploads/2024/05/mojito-sabato-estate-2024-7.webp",
     "party-location": "Mojito / Riccione",
     "party-url": "https://forms.gle/3TApPU4tmnZ982AL9"
+   },
+   {
+    "party-name": "LOW RED - PETER PAN - FUEGO",
+    "party-timestamp": 1752958800,
+    "party-image-url": "https://d2fa23zcjd5klo.cloudfront.net/square/event/e8f1ffe0-424d-4264-826c-d5531cd353e4.jpg",
+    "party-location": "Peter Pan Club / Misano Adriatico",
+    "party-url": "https://forms.gle/NeAdVj3TxzpJKbNP9"
+   },
+   {
+    "party-name": "FUEGO - MOJITO",
+    "party-timestamp":  1752786000,
+    "party-image-url": "https://discoteche-riccione-rimini.it/wp-content/uploads/2024/05/mojito-sabato-estate-2024-7.webp",
+    "party-location": "Mojito / Riccione",
+    "party-url": "https://forms.gle/dnBWA9arB5Ya61WX9"
    }
   
   
